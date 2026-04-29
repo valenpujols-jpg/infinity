@@ -91,13 +91,12 @@ export default function ContactForm() {
       {/* Name */}
       <div>
         <label htmlFor="name" className="block text-sm font-semibold text-navy-900 mb-1.5">
-          {isEn ? 'Full name' : 'Nombre completo'} <span className="text-red-500">*</span>
+          {isEn ? 'Full name' : 'Nombre completo'}
         </label>
         <input
           id="name"
           name="name"
           type="text"
-          required
           value={form.name}
           onChange={handleChange}
           placeholder={isEn ? 'John Doe' : 'Juan Pérez'}
@@ -109,13 +108,12 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label htmlFor="phone" className="block text-sm font-semibold text-navy-900 mb-1.5">
-            {isEn ? 'Phone number' : 'Teléfono'} <span className="text-red-500">*</span>
+            {isEn ? 'Phone number' : 'Teléfono'}
           </label>
           <input
             id="phone"
             name="phone"
             type="tel"
-            required
             value={form.phone}
             onChange={handleChange}
             placeholder="617-000-0000"
@@ -141,12 +139,11 @@ export default function ContactForm() {
       {/* Service */}
       <div>
         <label htmlFor="service" className="block text-sm font-semibold text-navy-900 mb-1.5">
-          {isEn ? 'Service of interest' : 'Servicio de interés'} <span className="text-red-500">*</span>
+          {isEn ? 'Service of interest' : 'Servicio de interés'}
         </label>
         <select
           id="service"
           name="service"
-          required
           value={form.service}
           onChange={handleChange}
           className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-all text-gray-700 bg-white"
