@@ -124,11 +124,11 @@ const content = {
         title: '13. Términos y Condiciones de SMS',
         body: (
           <>
-            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services puede enviar mensajes SMS no comerciales y relacionados con el servicio sobre recordatorios de citas, actualizaciones de servicios fiscales, actualizaciones de solicitudes de ITIN, actualizaciones del estado de documentos y soporte al cliente.</p>
+            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services envía mensajes SMS no comerciales relacionados con recordatorios de citas, servicios de taxes, actualizaciones de ITIN, actualizaciones del estado de documentos y soporte al cliente.</p>
             <p className="mb-4">La frecuencia de mensajes varía. Pueden aplicar tarifas de mensajes y datos.</p>
-            <p className="mb-4">Responde STOP para cancelar la recepción de mensajes SMS en cualquier momento. Responde HELP para asistencia o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> o <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
+            <p className="mb-4">Puedes responder STOP en cualquier momento para dejar de recibir mensajes SMS. Para asistencia, responde HELP o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> o <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
             <p className="mb-4">El consentimiento para SMS no es una condición de compra.</p>
-            <p className="mb-4">Los datos de consentimiento SMS no serán vendidos, compartidos ni alquilados a terceros con fines de marketing o promoción.</p>
+            <p className="mb-4">Los datos y el consentimiento de SMS no serán vendidos, compartidos ni alquilados a terceros con fines de marketing o promoción.</p>
             <p>Política de Privacidad: <a href="/privacy" className="text-gold-600 font-semibold hover:underline">https://www.infinityssinc.com/privacy</a></p>
           </>
         ),
@@ -258,9 +258,9 @@ const content = {
         title: '13. SMS Terms and Conditions',
         body: (
           <>
-            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services may send non-marketing, service-related SMS messages regarding appointment reminders, tax service updates, ITIN application updates, document status updates, and customer support.</p>
+            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services sends non-marketing SMS messages related to appointment reminders, tax services, ITIN updates, document status updates, and customer support.</p>
             <p className="mb-4">Message frequency varies. Message and data rates may apply.</p>
-            <p className="mb-4">Reply STOP to opt out of SMS messages at any time. Reply HELP for assistance or contact us at <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> or <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
+            <p className="mb-4">You can reply STOP at any time to opt out of receiving SMS messages. For assistance, reply HELP or contact us at <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> or <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
             <p className="mb-4">SMS consent is not a condition of purchase.</p>
             <p className="mb-4">SMS opt-in data and consent will not be sold, shared, or rented to third parties for marketing or promotional purposes.</p>
             <p>Privacy Policy: <a href="/privacy" className="text-gold-600 font-semibold hover:underline">https://www.infinityssinc.com/privacy</a></p>
