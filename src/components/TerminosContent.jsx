@@ -126,7 +126,7 @@ const content = {
           <>
             <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-5">
               <p className="font-bold text-amber-800 text-sm uppercase tracking-wide mb-1">Aviso CAN-SPAM</p>
-              <p className="text-amber-900 text-sm">Este servicio de SMS es exclusivamente para comunicaciones de servicio no comerciales. <strong>No enviamos SMS con fines de marketing, publicidad ni promoción.</strong></p>
+              <p className="text-amber-900 text-sm">Este servicio es exclusivamente para comunicaciones de servicio no comerciales. <strong>No enviamos comunicaciones con fines de marketing, publicidad ni promoción.</strong></p>
             </div>
             <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services envía mensajes SMS no comerciales relacionados con recordatorios de citas, servicios de taxes, actualizaciones de ITIN, actualizaciones del estado de documentos y soporte al cliente.</p>
             <p className="mb-4">La frecuencia de mensajes varía. Pueden aplicar tarifas de mensajes y datos.</p>
@@ -264,7 +264,7 @@ const content = {
           <>
             <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-5">
               <p className="font-bold text-amber-800 text-sm uppercase tracking-wide mb-1">CAN-SPAM Notice</p>
-              <p className="text-amber-900 text-sm">This SMS service is for non-marketing, service-related communications only. <strong>We do not send SMS messages for marketing, advertising, or promotional purposes.</strong></p>
+              <p className="text-amber-900 text-sm">This service is for non-marketing, service-related communications only. <strong>We do not send communications for marketing, advertising, or promotional purposes.</strong></p>
             </div>
             <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services sends non-marketing SMS messages related to appointment reminders, tax services, ITIN updates, document status updates, and customer support.</p>
             <p className="mb-4">Message frequency varies. Message and data rates may apply.</p>
