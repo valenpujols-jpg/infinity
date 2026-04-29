@@ -65,8 +65,8 @@ export default function SmsTermsPage() {
                 <li>Requests for missing documents or follow-up information related to your case</li>
                 <li>Notifications about deadlines (IRS filing deadlines, payroll dates, etc.)</li>
                 <li>Responses to inquiries submitted through our website contact form or by phone</li>
-                <li>General service updates, promotional offers, and information about our services
-                    (including tax preparation, bookkeeping, payroll, credit repair, and ITIN services)</li>
+                <li>General service updates and informational notices about your active or upcoming services
+                    (tax preparation, bookkeeping, payroll, credit repair, and ITIN services) — not promotional or marketing messages</li>
                 <li>Important alerts regarding changes to tax laws or compliance requirements
                     that may affect your account</li>
               </ul>
@@ -220,7 +220,9 @@ export default function SmsTermsPage() {
               <div className="bg-navy-50 border border-navy-100 rounded-xl p-5 mb-4">
                 <p className="font-bold text-navy-900 mb-2">
                   We do not sell, rent, or share your mobile number or any personal information
-                  collected through this SMS program with third parties for their marketing purposes.
+                  collected through this SMS program with third parties for any purpose, including
+                  marketing or promotional purposes. All messages sent through this program are
+                  transactional and service-related — not marketing communications.
                 </p>
               </div>
               <p className="mb-3">Your mobile number and related information will be used solely to:</p>

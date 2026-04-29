@@ -15,12 +15,12 @@ const images = [
 ]
 
 const hrefs = [
-  '/services#migracion',
-  '/services#taxes-individuales',
-  '/services#taxes-corporativos',
+  '/services#immigration',
+  '/services#individual-taxes',
+  '/services#corporate-taxes',
   '/services#bookkeeping',
   '/services#payroll',
-  '/services#credito',
+  '/services#credit',
 ]
 
 const gradients = [

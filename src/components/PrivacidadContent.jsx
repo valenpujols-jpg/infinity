@@ -54,20 +54,23 @@ const content = {
         title: '2. Cómo utilizamos tu información',
         body: (
           <>
-            <p className="mb-3">Utilizamos la información recopilada para los siguientes propósitos:</p>
+            <p className="mb-3">Utilizamos la información recopilada únicamente para los siguientes propósitos:</p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
               <li>Responder a tus consultas y solicitudes de información</li>
               <li>Prestar los servicios que has contratado con nosotros</li>
-              <li>Comunicarnos contigo sobre el estado de tu servicio</li>
-              <li>Enviarte información relevante sobre nuestros servicios (solo si lo autorizaste)</li>
+              <li>Comunicarnos contigo sobre el estado de tu servicio activo (declaración, trámite, nómina, etc.)</li>
+              <li>Enviarte recordatorios de citas, avisos de documentos pendientes o notificaciones importantes relacionadas con tu caso</li>
               <li>Cumplir con obligaciones legales y fiscales aplicables</li>
               <li>Mejorar nuestro sitio web y la experiencia del usuario</li>
               <li>Prevenir fraudes y garantizar la seguridad de nuestros servicios</li>
             </ul>
-            <p className="mt-3">
-              <strong>No utilizamos tu información para fines distintos</strong> a los descritos en esta
-              política sin tu consentimiento previo.
-            </p>
+            <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
+              <p className="text-green-800 font-semibold text-sm">
+                No utilizamos tu información personal con fines publicitarios, de mercadeo o promocionales.
+                Todas las comunicaciones que enviamos están directamente relacionadas con los servicios
+                que has solicitado o contratado.
+              </p>
+            </div>
           </>
         ),
       },
@@ -76,11 +79,11 @@ const content = {
         body: (
           <>
             <p className="mb-3">
-              <strong>No vendemos, alquilamos ni comercializamos tu información personal.</strong> Sin
-              embargo, podemos compartir tu información en los siguientes casos limitados:
+              <strong>No vendemos, alquilamos ni compartimos tu información personal con fines publicitarios, de mercadeo o promocionales.</strong> Sin
+              embargo, podemos compartir tu información en los siguientes casos limitados y estrictamente necesarios:
             </p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
-              <li><strong>Proveedores de servicios tecnológicos:</strong> Plataformas de contabilidad, CRM, software de gestión de nómina u otras herramientas necesarias para prestar nuestros servicios. Estos proveedores están obligados contractualmente a proteger tu información.</li>
+              <li><strong>Proveedores de servicios tecnológicos:</strong> Plataformas de contabilidad, CRM, software de gestión de nómina u otras herramientas necesarias para prestar nuestros servicios. Estos proveedores están obligados contractualmente a proteger tu información y no pueden utilizarla para fines propios ni de mercadeo.</li>
               <li><strong>Autoridades gubernamentales:</strong> Cuando sea requerido por ley, orden judicial o agencias regulatorias como el IRS o el Departamento de Trabajo.</li>
               <li><strong>Con tu consentimiento expreso:</strong> Para cualquier otro propósito que requiera compartir tu información con terceros no mencionados anteriormente.</li>
             </ul>
@@ -134,7 +137,7 @@ const content = {
               <li><strong>Acceder</strong> a la información personal que tenemos sobre ti</li>
               <li><strong>Corregir</strong> datos inexactos o desactualizados</li>
               <li><strong>Solicitar la eliminación</strong> de tu información (cuando sea legalmente posible)</li>
-              <li><strong>Retirar tu consentimiento</strong> para comunicaciones de marketing en cualquier momento</li>
+              <li><strong>Retirar tu consentimiento</strong> para comunicaciones de servicio (recordatorios de citas, actualizaciones de estado de documentos y soporte — no publicidad ni mercadeo) en cualquier momento</li>
               <li><strong>Presentar una queja</strong> ante la autoridad competente si consideras que tus derechos han sido vulnerados</li>
             </ul>
             <p className="mt-3">
@@ -235,20 +238,22 @@ const content = {
         title: '2. How We Use Your Information',
         body: (
           <>
-            <p className="mb-3">We use the information collected for the following purposes:</p>
+            <p className="mb-3">We use the information collected solely for the following purposes:</p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
               <li>Respond to your inquiries and information requests</li>
               <li>Provide the services you have contracted with us</li>
-              <li>Communicate with you about the status of your service</li>
-              <li>Send you relevant information about our services (only if you authorized it)</li>
+              <li>Communicate with you about the status of your active service (tax return, filing, payroll, etc.)</li>
+              <li>Send appointment reminders, missing document notices, or important notifications related to your case</li>
               <li>Comply with applicable legal and tax obligations</li>
               <li>Improve our website and user experience</li>
               <li>Prevent fraud and ensure the security of our services</li>
             </ul>
-            <p className="mt-3">
-              <strong>We do not use your information for purposes other than those described</strong> in
-              this policy without your prior consent.
-            </p>
+            <div className="mt-4 p-4 bg-green-50 border border-green-200 rounded-xl">
+              <p className="text-green-800 font-semibold text-sm">
+                We do not use your personal information for advertising, marketing, or promotional purposes.
+                All communications we send are directly related to the services you have requested or contracted.
+              </p>
+            </div>
           </>
         ),
       },
@@ -257,11 +262,11 @@ const content = {
         body: (
           <>
             <p className="mb-3">
-              <strong>We do not sell, rent, or trade your personal information.</strong> However,
-              we may share your information in the following limited cases:
+              <strong>We do not sell, rent, or share your personal information for advertising, marketing, or promotional purposes.</strong> We may
+              share your information only in the following strictly limited cases:
             </p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
-              <li><strong>Technology service providers:</strong> Accounting platforms, CRM, payroll management software, or other tools necessary to provide our services. These providers are contractually bound to protect your information.</li>
+              <li><strong>Technology service providers:</strong> Accounting platforms, CRM, payroll management software, or other tools necessary to provide our services. These providers are contractually bound to protect your information and may not use it for their own purposes or for marketing.</li>
               <li><strong>Government authorities:</strong> When required by law, court order, or regulatory agencies such as the IRS or Department of Labor.</li>
               <li><strong>With your express consent:</strong> For any other purpose that requires sharing your information with third parties not mentioned above.</li>
             </ul>
@@ -313,7 +318,7 @@ const content = {
               <li><strong>Access</strong> the personal information we hold about you</li>
               <li><strong>Correct</strong> inaccurate or outdated data</li>
               <li><strong>Request deletion</strong> of your information (where legally possible)</li>
-              <li><strong>Withdraw your consent</strong> to marketing communications at any time</li>
+              <li><strong>Withdraw your consent</strong> to service communications (appointment reminders, document status updates and support — not marketing or promotional messages) at any time</li>
               <li><strong>File a complaint</strong> with the competent authority if you believe your rights have been violated</li>
             </ul>
             <p className="mt-3">
