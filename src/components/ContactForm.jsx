@@ -184,23 +184,37 @@ export default function ContactForm() {
           className="mt-0.5 w-4 h-4 accent-gold-500 shrink-0 cursor-pointer"
         />
         <label htmlFor="smsConsent" className="text-xs text-gray-600 leading-relaxed cursor-pointer">
-          <span className="inline-block bg-gray-200 text-gray-500 text-[10px] font-semibold px-1.5 py-0.5 rounded uppercase tracking-wide mb-1">
-            {isEn ? 'Optional' : 'Opcional'}
+          <span className="flex flex-wrap gap-1.5 mb-1.5">
+            <span className="inline-block bg-gray-200 text-gray-500 text-[10px] font-semibold px-1.5 py-0.5 rounded uppercase tracking-wide">
+              {isEn ? 'Optional' : 'Opcional'}
+            </span>
+            <span className="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
+              {isEn ? 'No Marketing' : 'Sin Marketing'}
+            </span>
           </span>
-          <br />
-          I consent to receive text messages about appointment reminders, tax service updates, ITIN
-          application updates, document status updates, and customer support from Infinity Solutions
-          of Roxbury LLC DBA VAESCA Tax Services at the phone number I provided. I acknowledge that
-          my consent is not a condition of purchase. Msg &amp; data rates may apply. Msg frequency
-          varies. Reply HELP for assistance or STOP to opt out of receiving messages.{' '}
-          <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">
-            Privacy Policy
-          </a>
-          {' '}&amp;{' '}
-          <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">
-            Terms
-          </a>
-          .
+          {isEn ? (
+            <>
+              I consent to receive <strong>non-marketing</strong> text messages (appointment reminders,
+              tax service updates, ITIN updates, document status updates, and customer support) from
+              Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services at the phone number I provided.
+              These messages are strictly service-related — not marketing or promotional.
+              My consent is not a condition of purchase. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for assistance.{' '}
+              <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Privacy Policy</a>
+              {' '}&amp;{' '}
+              <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Terms</a>.
+            </>
+          ) : (
+            <>
+              Acepto recibir mensajes de texto <strong>no comerciales</strong> (recordatorios de citas,
+              actualizaciones de servicios de taxes, ITIN, estado de documentos y soporte al cliente) de
+              Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services al número que proporcioné.
+              Estos mensajes son exclusivamente de servicio — no marketing ni publicidad.
+              Mi consentimiento no es una condición de compra. Pueden aplicar tarifas. Responde STOP para cancelar, HELP para ayuda.{' '}
+              <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Política de Privacidad</a>
+              {' '}&amp;{' '}
+              <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Términos</a>.
+            </>
+          )}
         </label>
       </div>
 
