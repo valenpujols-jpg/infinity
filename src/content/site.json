@@ -5,6 +5,17 @@
     "address": "1 West Cottage Street, Roxbury, MA 02119",
     "instagram": "https://www.instagram.com/infinityss.inc"
   },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80",
+    "services": [
+      "https://images.unsplash.com/photo-1569098644584-210bcd375b59?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
   "es": {
     "hero": {
       "headline1": "Soluciones",
@@ -14,6 +25,27 @@
       "cta1": "Consulta Gratis",
       "cta2": "Llámanos"
     },
+    "about": {
+      "heroTitle": "Sobre Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services",
+      "heroSubtitle": "Nacimos con un propósito claro: brindar servicios profesionales de calidad a la comunidad hispana de Boston, en su idioma y con la confianza que merecen.",
+      "storyTitle": "Una empresa nacida para servir a nuestra comunidad",
+      "story1": "Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services nació en Boston, Massachusetts, con un objetivo claro: ofrecer servicios financieros, contables y administrativos de la más alta calidad a la comunidad latina e hispana de Nueva Inglaterra.",
+      "story2": "Entendemos de primera mano los retos que enfrentan los inmigrantes y emprendedores en este país: barreras de idioma, sistemas complejos, y la necesidad de encontrar alguien de confianza que los guíe sin complicaciones ni sorpresas.",
+      "story3": "Por eso construimos una empresa donde el cliente siempre es lo primero. Un lugar donde puedes llegar con tus dudas, tus documentos y tus metas, y salir con claridad, tranquilidad y respuestas reales.",
+      "story4": "Hoy atendemos a cientos de familias y negocios en Boston y sus alrededores, y seguimos creciendo porque nuestros clientes confían en nosotros y nos recomiendan. Eso es lo que más nos enorgullece.",
+      "missionTitle": "Nuestra Misión",
+      "missionBody": "Brindar servicios financieros, contables, migratorios y de crédito de la más alta calidad a individuos y empresas, especialmente a la comunidad hispana en Boston, MA.",
+      "visionTitle": "Nuestra Visión",
+      "visionBody": "Convertirnos en la empresa de servicios de referencia para la comunidad latina del noreste de Estados Unidos. Ser reconocidos por nuestra excelencia, confiabilidad y el impacto positivo que generamos."
+    },
+    "faq": [
+      { "q": "¿Qué documentos necesito para preparar mis taxes individuales?", "a": "Para declarar tus impuestos personales generalmente necesitas: formulario W-2, formularios 1099, tu número de Seguro Social o ITIN, información bancaria, comprobantes de gastos deducibles como educación, salud, donaciones, y cualquier carta del IRS que hayas recibido." },
+      { "q": "¿Qué es el ITIN y quién lo necesita?", "a": "El ITIN es un número de identificación fiscal emitido por el IRS para personas que no tienen Seguro Social pero necesitan declarar impuestos. Es común entre inmigrantes que trabajan o tienen ingresos en Estados Unidos." },
+      { "q": "¿Qué incluye exactamente el servicio de Bookkeeping?", "a": "Nuestro servicio incluye: registro mensual de ingresos y gastos, conciliación bancaria, categorización de transacciones, preparación de estados financieros y organización de información para la declaración anual de taxes." },
+      { "q": "¿Cómo funciona el servicio de reparación de crédito?", "a": "El proceso comienza con una revisión de tu historial crediticio en los tres bureaus principales. Identificamos errores, ítems negativos o no verificables y procedemos con disputas formales cuando corresponde." },
+      { "q": "¿Atienden clientes fuera de Boston?", "a": "Sí, aunque estamos basados en Boston, MA, podemos atender a clientes de otras ciudades de forma remota. Muchos de nuestros servicios como taxes, bookkeeping y payroll se pueden manejar completamente de forma virtual." },
+      { "q": "¿Mis datos personales están seguros con ustedes?", "a": "Absolutamente. La confidencialidad de tu información es una prioridad máxima. Manejamos todos los datos bajo estrictas medidas de seguridad y nunca compartimos tu información con terceros sin tu consentimiento expreso." }
+    ],
     "services_featured": {
       "title": "Atención personalizada en tu idioma",
       "subtitle": "Más de 500 familias y negocios en Boston confían en nosotros para sus trámites más importantes. Hablamos español.",
@@ -52,18 +84,39 @@
       "cta1": "Free Consultation",
       "cta2": "Call Now"
     },
+    "about": {
+      "heroTitle": "About Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services",
+      "heroSubtitle": "We were born with a clear purpose: to provide quality professional services to the Hispanic community in Boston, in their language and with the trust they deserve.",
+      "storyTitle": "A company born to serve our community",
+      "story1": "Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services was founded in Boston, Massachusetts, with one clear goal: to provide the highest-quality financial, accounting, and administrative services to the Latino and Hispanic community of New England.",
+      "story2": "We understand firsthand the challenges immigrants and entrepreneurs face in this country: language barriers, complex systems, and the need to find someone trustworthy who will guide them without complications or surprises.",
+      "story3": "That is why we built a company where the client always comes first. A place where you can come with your questions, your documents, and your goals — and leave with clarity, peace of mind, and real answers.",
+      "story4": "Today we serve hundreds of families and businesses in Boston and the surrounding area, and we continue to grow because our clients trust us and refer us to others. That is what we are most proud of.",
+      "missionTitle": "Our Mission",
+      "missionBody": "To provide the highest-quality financial, accounting, immigration, and credit services to individuals and businesses, especially the Hispanic community in Boston, MA.",
+      "visionTitle": "Our Vision",
+      "visionBody": "To become the reference service company for the Latino community in the northeastern United States. To be recognized for our excellence, reliability, and the positive impact we generate."
+    },
+    "faq": [
+      { "q": "What documents do I need to prepare my individual taxes?", "a": "For your personal tax return you generally need: W-2 form (if employed), 1099 forms (if self-employed or other income), your Social Security Number or ITIN, banking information, and receipts for deductible expenses." },
+      { "q": "What is an ITIN and who needs it?", "a": "An ITIN (Individual Taxpayer Identification Number) is a tax ID issued by the IRS for people who don't have a Social Security Number but need to file taxes. It's common among immigrants who work or have income in the United States." },
+      { "q": "What does the Bookkeeping service include?", "a": "Our bookkeeping service includes: monthly recording of all income and expenses, bank reconciliation, transaction categorization, preparation of financial statements, and organization of your records for the annual tax filing." },
+      { "q": "How does the credit repair service work?", "a": "The process starts with a review of your credit history at the three major bureaus. We identify errors, negative or unverifiable items and proceed with formal disputes when appropriate." },
+      { "q": "Do you serve clients outside of Boston?", "a": "Yes, although we are based in Boston, MA, we can serve clients from other cities remotely. Many of our services like taxes, bookkeeping and payroll can be handled completely virtually." },
+      { "q": "Is my personal information safe with you?", "a": "Absolutely. The confidentiality of your information is our top priority. We handle all data under strict security measures and never share your information with third parties without your express consent." }
+    ],
     "services_featured": {
       "title": "Personalized attention in your language",
       "subtitle": "Over 500 families and businesses in Boston trust us with their most important matters. We speak Spanish and English.",
       "cta": "Request free consultation"
     },
     "services": [
-      { "tag": "Immigration", "title": "Immigration Documents",     "desc": "Guidance and document preparation for your immigration paperwork in a professional and clear manner." },
-      { "tag": "Taxes",       "title": "Individual Tax Preparation", "desc": "Personal tax returns with maximum refund and full IRS compliance." },
-      { "tag": "Business",    "title": "Corporate Tax Preparation",  "desc": "Tax compliance for LLC, S-Corp and corporations. Maximize legal deductions." },
-      { "tag": "Accounting",  "title": "Bookkeeping",               "desc": "Monthly financial control and accounting organization. Know the real state of your business." },
-      { "tag": "Payroll",     "title": "Payroll Services",          "desc": "Complete payroll management for employers. Your employees get paid on time, error-free." },
-      { "tag": "Credit",      "title": "Credit Repair",             "desc": "Review your history, dispute errors and improve your score with real and effective strategies." }
+      { "tag": "Immigration", "title": "Immigration Documents",      "desc": "Guidance and document preparation for your immigration paperwork in a professional and clear manner." },
+      { "tag": "Taxes",       "title": "Individual Tax Preparation",  "desc": "Personal tax returns with maximum refund and full IRS compliance." },
+      { "tag": "Business",    "title": "Corporate Tax Preparation",   "desc": "Tax compliance for LLC, S-Corp and corporations. Maximize legal deductions." },
+      { "tag": "Accounting",  "title": "Bookkeeping",                "desc": "Monthly financial control and accounting organization. Know the real state of your business." },
+      { "tag": "Payroll",     "title": "Payroll Services",           "desc": "Complete payroll management for employers. Your employees get paid on time, error-free." },
+      { "tag": "Credit",      "title": "Credit Repair",              "desc": "Review your history, dispute errors and improve your score with real and effective strategies." }
     ],
     "testimonials": [
       { "name": "María G.",  "location": "East Boston, MA", "service": "Individual Taxes",      "text": "Excellent service. They helped me with my taxes and for the first time I understood the entire process. Very professional, friendly and punctual. Highly recommended." },
