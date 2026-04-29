@@ -15,12 +15,12 @@ const images = [
 ]
 
 const hrefs = [
-  '/servicios#migracion',
-  '/servicios#taxes-individuales',
-  '/servicios#taxes-corporativos',
-  '/servicios#bookkeeping',
-  '/servicios#payroll',
-  '/servicios#credito',
+  '/services#migracion',
+  '/services#taxes-individuales',
+  '/services#taxes-corporativos',
+  '/services#bookkeeping',
+  '/services#payroll',
+  '/services#credito',
 ]
 
 const gradients = [
@@ -63,7 +63,7 @@ export default function ServicesSection() {
                 </h3>
                 <p className="text-gray-300 text-base mb-5 max-w-md">{s.featuredSubtitle}</p>
                 <Link
-                  href="/contacto"
+                  href="/contact"
                   className="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-white font-bold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-lg hover:-translate-y-0.5"
                 >
                   {s.featuredCta}
@@ -107,7 +107,7 @@ export default function ServicesSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Link href="/servicios" className="btn-navy px-8 py-4 text-base">
+          <Link href="/services" className="btn-navy px-8 py-4 text-base">
             {s.viewAll}
             <ArrowRight size={18} />
           </Link>

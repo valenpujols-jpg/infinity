@@ -171,17 +171,17 @@ export default function ContactForm() {
         />
         <label htmlFor="consent" className="text-xs text-gray-600 leading-relaxed cursor-pointer">
           Al enviar este formulario, acepto la{' '}
-          <a href="/privacidad" target="_blank" className="text-gold-600 hover:underline font-semibold">
+          <a href="/privacy" target="_blank" className="text-gold-600 hover:underline font-semibold">
             Política de Privacidad
           </a>{' '}
           y los{' '}
-          <a href="/terminos" target="_blank" className="text-gold-600 hover:underline font-semibold">
+          <a href="/terms" target="_blank" className="text-gold-600 hover:underline font-semibold">
             Términos y Condiciones
           </a>{' '}
           de Infinity Solutions of Roxbury LLC, y autorizo que la empresa me contacte en relación
           con mi consulta. Entiendo que mis datos serán tratados de forma confidencial y no
           serán compartidos con terceros sin mi consentimiento.{' '}
-          <a href="/aviso-legal" target="_blank" className="text-gold-600 hover:underline font-semibold">
+          <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">
             Ver aviso legal.
           </a>
           <span className="text-red-500 ml-1">*</span>

@@ -106,7 +106,7 @@ const content = {
             Nuestro sitio web puede utilizar cookies y tecnologías similares para mejorar la
             experiencia de navegación, analizar el tráfico y personalizar el contenido. Puedes
             consultar nuestra{' '}
-            <a href="/cookies" className="text-gold-600 hover:underline font-semibold">
+            <a href="/cookie-policy" className="text-gold-600 hover:underline font-semibold">
               Política de Cookies
             </a>{' '}
             para más detalles y para conocer cómo gestionar tus preferencias.
@@ -286,7 +286,7 @@ const content = {
           <p>
             Our website may use cookies and similar technologies to improve the browsing experience,
             analyze traffic, and personalize content. You can consult our{' '}
-            <a href="/cookies" className="text-gold-600 hover:underline font-semibold">
+            <a href="/cookie-policy" className="text-gold-600 hover:underline font-semibold">
               Cookie Policy
             </a>{' '}
             for more details and to learn how to manage your preferences.

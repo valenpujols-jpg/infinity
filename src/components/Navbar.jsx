@@ -19,10 +19,10 @@ export default function Navbar() {
 
   const navLinks = [
     { label: t.nav.home,     href: '/' },
-    { label: t.nav.services, href: '/servicios' },
-    { label: t.nav.about,    href: '/sobre-nosotros' },
+    { label: t.nav.services, href: '/services' },
+    { label: t.nav.about,    href: '/about' },
     { label: t.nav.faq,      href: '/faq' },
-    { label: t.nav.contact,  href: '/contacto' },
+    { label: t.nav.contact,  href: '/contact' },
   ]
 
   return (

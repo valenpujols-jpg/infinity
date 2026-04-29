@@ -60,7 +60,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Link
-                href="/contacto"
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 bg-gold-500 hover:bg-gold-400 text-white font-bold px-8 py-4 rounded-xl transition-all duration-200 text-base shadow-xl shadow-gold-500/20 hover:-translate-y-0.5"
               >
                 {h.cta1}

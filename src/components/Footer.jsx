@@ -94,7 +94,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-gray-600 text-xs leading-relaxed text-center">
             <strong className="text-gray-500">{f.disclaimer.split('.')[0]}.</strong>{' '}
-            <Link href="/aviso-legal" className="text-gold-600 hover:underline">{f.disclaimerLink}</Link>
+            <Link href="/legal" className="text-gold-600 hover:underline">{f.disclaimerLink}</Link>
           </p>
         </div>
       </div>

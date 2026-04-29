@@ -38,11 +38,11 @@ export default function SmsTermsPage() {
               </p>
               <p className="mt-3">
                 These SMS Terms are separate from, and in addition to, our general{' '}
-                <a href="/terminos" className="text-gold-600 font-semibold hover:underline">
+                <a href="/terms" className="text-gold-600 font-semibold hover:underline">
                   Terms &amp; Conditions
                 </a>{' '}
                 and{' '}
-                <a href="/privacidad" className="text-gold-600 font-semibold hover:underline">
+                <a href="/privacy" className="text-gold-600 font-semibold hover:underline">
                   Privacy Policy
                 </a>
                 .
@@ -203,7 +203,7 @@ export default function SmsTermsPage() {
                 <li>
                   You confirm that you have read and agree to these SMS Terms &amp; Conditions
                   and our{' '}
-                  <a href="/privacidad" className="text-gold-600 font-semibold hover:underline">Privacy Policy</a>.
+                  <a href="/privacy" className="text-gold-600 font-semibold hover:underline">Privacy Policy</a>.
                 </li>
                 <li>
                   If you provide a mobile number that is not your own, you represent and warrant
@@ -238,7 +238,7 @@ export default function SmsTermsPage() {
               </p>
               <p className="mt-3">
                 For full details on how we handle your personal data, please review our{' '}
-                <a href="/privacidad" className="text-gold-600 font-semibold hover:underline">
+                <a href="/privacy" className="text-gold-600 font-semibold hover:underline">
                   Privacy Policy
                 </a>.
               </p>
