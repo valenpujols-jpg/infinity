@@ -48,7 +48,7 @@ export default function ServicesSection() {
           <div className="relative rounded-3xl overflow-hidden h-72 md:h-80 group card-hover shadow-lg">
             <Image
               src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1400&q=80"
-              alt="Infinity Solutions Services — Atención profesional"
+              alt="Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services — Atención profesional"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
