@@ -116,8 +116,8 @@ export const translations = {
       serviceHrefs: ['/services#individual-taxes','/services#corporate-taxes','/services#bookkeeping','/services#payroll','/services#credit','/services#immigration'],
       navLinks: ['Inicio','Sobre Nosotros','Servicios','Preguntas Frecuentes','Contacto'],
       navHrefs: ['/','about','/services','/faq','/contact'],
-      legal: ['Política de Privacidad','Términos y Condiciones','Aviso Legal','Política de Cookies','Términos SMS'],
-      legalHrefs: ['/privacy','/terms','/legal','/cookie-policy','/sms-terms'],
+      legal: ['Política de Privacidad','Términos y Condiciones','Aviso Legal','Política de Cookies'],
+      legalHrefs: ['/privacy','/terms','/legal','/cookie-policy'],
     },
     whatsapp: {
       tooltip: 'Escríbenos por WhatsApp',
@@ -263,8 +263,8 @@ export const translations = {
       serviceHrefs: ['/services#individual-taxes','/services#corporate-taxes','/services#bookkeeping','/services#payroll','/services#credit','/services#immigration'],
       navLinks: ['Home','About Us','Services','FAQ','Contact'],
       navHrefs: ['/','/about','/services','/faq','/contact'],
-      legal: ['Privacy Policy','Terms of Service','Legal Disclaimer','Cookie Policy','SMS Terms'],
-      legalHrefs: ['/privacy','/terms','/legal','/cookie-policy','/sms-terms'],
+      legal: ['Privacy Policy','Terms of Service','Legal Disclaimer','Cookie Policy'],
+      legalHrefs: ['/privacy','/terms','/legal','/cookie-policy'],
     },
     whatsapp: {
       tooltip: 'Message us on WhatsApp',

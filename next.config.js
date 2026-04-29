@@ -18,6 +18,7 @@ const nextConfig = {
       { source: '/sobre-nosotros',destination: '/about',         permanent: true },
       { source: '/servicios',     destination: '/services',      permanent: true },
       { source: '/servicios/:path*', destination: '/services/:path*', permanent: true },
+      { source: '/sms-terms',     destination: '/terms',         permanent: true },
       { source: '/faq',           destination: '/faq',           permanent: false },
     ]
   },
