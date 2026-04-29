@@ -35,6 +35,8 @@ export default function ContactForm() {
     service: '',
     message: '',
   })
+  const [consent, setConsent] = useState(false)
+  const [smsConsent, setSmsConsent] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
 
@@ -170,6 +172,82 @@ export default function ContactForm() {
           placeholder={isEn ? 'Briefly describe your situation or what you need...' : 'Describe brevemente tu situación o lo que necesitas...'}
           className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-all placeholder-gray-400 resize-none"
         />
+      </div>
+
+      {/* SMS consent checkbox — optional, A2P 10DLC compliant */}
+      <div className="flex items-start gap-3 p-4 bg-blue-50 rounded-xl border border-blue-100">
+        <input
+          id="smsConsent"
+          type="checkbox"
+          checked={smsConsent}
+          onChange={(e) => setSmsConsent(e.target.checked)}
+          className="mt-0.5 w-4 h-4 accent-gold-500 shrink-0 cursor-pointer"
+        />
+        <label htmlFor="smsConsent" className="text-xs text-gray-600 leading-relaxed cursor-pointer">
+          <span className="flex flex-wrap gap-1.5 mb-1.5">
+            <span className="inline-block bg-gray-200 text-gray-500 text-[10px] font-semibold px-1.5 py-0.5 rounded uppercase tracking-wide">
+              {isEn ? 'Optional' : 'Opcional'}
+            </span>
+            <span className="inline-block bg-green-100 text-green-700 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
+              {isEn ? 'No Marketing' : 'Sin Marketing'}
+            </span>
+          </span>
+          {isEn ? (
+            <>
+              I consent to receive <strong>non-marketing</strong> text messages (appointment reminders,
+              tax service updates, ITIN updates, document status updates, and customer support) from
+              Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services at the phone number I provided.
+              These messages are strictly service-related — not marketing or promotional.
+              My consent is not a condition of purchase. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for assistance.{' '}
+              <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Privacy Policy</a>
+              {' '}&amp;{' '}
+              <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Terms</a>.
+            </>
+          ) : (
+            <>
+              Acepto recibir mensajes de texto <strong>no comerciales</strong> (recordatorios de citas,
+              actualizaciones de servicios de taxes, ITIN, estado de documentos y soporte al cliente) de
+              Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services al número que proporcioné.
+              Estos mensajes son exclusivamente de servicio — no marketing ni publicidad.
+              Mi consentimiento no es una condición de compra. Pueden aplicar tarifas. Responde STOP para cancelar, HELP para ayuda.{' '}
+              <a href="/privacy" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Política de Privacidad</a>
+              {' '}&amp;{' '}
+              <a href="/terms" target="_blank" rel="noopener noreferrer" className="text-gold-600 hover:underline font-semibold">Términos</a>.
+            </>
+          )}
+        </label>
+      </div>
+
+      {/* Optional legal consent checkbox */}
+      <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl border border-gray-200">
+        <input
+          id="consent"
+          type="checkbox"
+          checked={consent}
+          onChange={(e) => setConsent(e.target.checked)}
+          className="mt-0.5 w-4 h-4 accent-gold-500 shrink-0 cursor-pointer"
+        />
+        <label htmlFor="consent" className="text-xs text-gray-600 leading-relaxed cursor-pointer">
+          {isEn ? (
+            <>
+              By submitting this form, I accept the{' '}
+              <a href="/privacy" target="_blank" className="text-gold-600 hover:underline font-semibold">Privacy Policy</a>{' '}
+              and the{' '}
+              <a href="/terms" target="_blank" className="text-gold-600 hover:underline font-semibold">Terms &amp; Conditions</a>{' '}
+              of Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services, and I authorize the company to contact me regarding my inquiry.{' '}
+              <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">View legal disclaimer.</a>
+            </>
+          ) : (
+            <>
+              Al enviar este formulario, acepto la{' '}
+              <a href="/privacy" target="_blank" className="text-gold-600 hover:underline font-semibold">Política de Privacidad</a>{' '}
+              y los{' '}
+              <a href="/terms" target="_blank" className="text-gold-600 hover:underline font-semibold">Términos y Condiciones</a>{' '}
+              de Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services, y autorizo que la empresa me contacte en relación con mi consulta.{' '}
+              <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">Ver aviso legal.</a>
+            </>
+          )}
+        </label>
       </div>
 
       <button
