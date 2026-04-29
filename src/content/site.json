@@ -1,0 +1,84 @@
+{
+  "contact": {
+    "phone": "617-669-8210",
+    "email": "info@infinityssinc.com",
+    "address": "1 West Cottage Street, Roxbury, MA 02119",
+    "instagram": "https://www.instagram.com/infinityss.inc"
+  },
+  "es": {
+    "hero": {
+      "headline1": "Soluciones",
+      "headlineAccent": "Profesionales",
+      "headline2": "para Tu Futuro",
+      "subtitle": "Taxes, Bookkeeping, Payroll, Reparación de Crédito y Trámites Migratorios. Atención personalizada en español para individuos y negocios en Boston, MA.",
+      "cta1": "Consulta Gratis",
+      "cta2": "Llámanos"
+    },
+    "services_featured": {
+      "title": "Atención personalizada en tu idioma",
+      "subtitle": "Más de 500 familias y negocios en Boston confían en nosotros para sus trámites más importantes. Hablamos español.",
+      "cta": "Solicitar consulta gratis"
+    },
+    "services": [
+      { "tag": "Migración",    "title": "Trámites Migratorios",    "desc": "Orientación y preparación de documentos para tus trámites migratorios de forma profesional y clara." },
+      { "tag": "Impuestos",   "title": "Taxes Individuales",       "desc": "Declaración de impuestos personales con máximo reembolso y cumplimiento total con el IRS." },
+      { "tag": "Empresas",    "title": "Taxes Corporativos",       "desc": "Cumplimiento tributario para LLC, S-Corp y corporaciones. Maximiza deducciones legales." },
+      { "tag": "Contabilidad","title": "Bookkeeping",              "desc": "Control financiero y organización contable mensual. Conoce el estado real de tu negocio." },
+      { "tag": "Nómina",      "title": "Payroll",                  "desc": "Gestión completa de nómina para empleadores. Tus empleados cobran a tiempo, sin errores." },
+      { "tag": "Crédito",     "title": "Reparación de Crédito",    "desc": "Revisa tu historial, disputa errores y mejora tu score con estrategias reales y efectivas." }
+    ],
+    "testimonials": [
+      { "name": "María G.",  "location": "East Boston, MA", "service": "Taxes Individuales",   "text": "Excelente servicio. Me ayudaron con mis taxes y por primera vez entendí todo el proceso. Muy profesionales, amables y puntuales. Los recomiendo ampliamente." },
+      { "name": "Carlos R.", "location": "Roxbury, MA",     "service": "Bookkeeping",          "text": "Desde que empecé con Infinity Solutions mis finanzas están organizadas. Ahora sé exactamente cuánto gana y gasta mi negocio. Servicio increíble." },
+      { "name": "Ana L.",    "location": "Dorchester, MA",  "service": "Trámites Migratorios", "text": "Me ayudaron con un trámite migratorio que tenía años pospuesto. El proceso fue claro, me explicaron todo y me acompañaron. Mucha confianza y profesionalismo." }
+    ],
+    "footer": {
+      "ctaStrip": "¿Listo para comenzar? Contáctanos hoy mismo.",
+      "desc": "Soluciones profesionales de impuestos, contabilidad, nómina, crédito y trámites migratorios para individuos y negocios en Boston, MA."
+    },
+    "cta_section": {
+      "title1": "Agenda tu Consulta",
+      "accent": "Gratis",
+      "title2": "Hoy",
+      "subtitle": "No esperes más. Un profesional de nuestro equipo está listo para escucharte, evaluar tu caso sin costo y orientarte hacia la mejor solución."
+    }
+  },
+  "en": {
+    "hero": {
+      "headline1": "Professional",
+      "headlineAccent": "Solutions",
+      "headline2": "for Your Future",
+      "subtitle": "Tax Preparation, Bookkeeping, Payroll, Credit Repair and Immigration Document Services. Personalized bilingual attention for individuals and businesses in Boston, MA.",
+      "cta1": "Free Consultation",
+      "cta2": "Call Now"
+    },
+    "services_featured": {
+      "title": "Personalized attention in your language",
+      "subtitle": "Over 500 families and businesses in Boston trust us with their most important matters. We speak Spanish and English.",
+      "cta": "Request free consultation"
+    },
+    "services": [
+      { "tag": "Immigration", "title": "Immigration Documents",     "desc": "Guidance and document preparation for your immigration paperwork in a professional and clear manner." },
+      { "tag": "Taxes",       "title": "Individual Tax Preparation", "desc": "Personal tax returns with maximum refund and full IRS compliance." },
+      { "tag": "Business",    "title": "Corporate Tax Preparation",  "desc": "Tax compliance for LLC, S-Corp and corporations. Maximize legal deductions." },
+      { "tag": "Accounting",  "title": "Bookkeeping",               "desc": "Monthly financial control and accounting organization. Know the real state of your business." },
+      { "tag": "Payroll",     "title": "Payroll Services",          "desc": "Complete payroll management for employers. Your employees get paid on time, error-free." },
+      { "tag": "Credit",      "title": "Credit Repair",             "desc": "Review your history, dispute errors and improve your score with real and effective strategies." }
+    ],
+    "testimonials": [
+      { "name": "María G.",  "location": "East Boston, MA", "service": "Individual Taxes",      "text": "Excellent service. They helped me with my taxes and for the first time I understood the entire process. Very professional, friendly and punctual. Highly recommended." },
+      { "name": "Carlos R.", "location": "Roxbury, MA",     "service": "Bookkeeping",           "text": "Since I started with Infinity Solutions my finances are organized. Now I know exactly how much my business earns and spends. Incredible service." },
+      { "name": "Ana L.",    "location": "Dorchester, MA",  "service": "Immigration Documents", "text": "They helped me with an immigration process I had been postponing for years. The process was clear, they explained everything and accompanied me. Great trust and professionalism." }
+    ],
+    "footer": {
+      "ctaStrip": "Ready to get started? Contact us today.",
+      "desc": "Professional tax, accounting, payroll, credit and immigration document services for individuals and businesses in Boston, MA."
+    },
+    "cta_section": {
+      "title1": "Schedule Your",
+      "accent": "Free",
+      "title2": "Consultation Today",
+      "subtitle": "Don't wait any longer. A professional from our team is ready to listen to you, evaluate your case at no cost and guide you toward the best solution."
+    }
+  }
+}
