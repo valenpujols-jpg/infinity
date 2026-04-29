@@ -38,7 +38,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group shrink-0">
             <Image
               src="/images/logo-transparente.png"
-              alt="Infinity Solutions of Roxbury LLC"
+              alt="Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services"
               width={160}
               height={52}
               className="h-11 w-auto object-contain"

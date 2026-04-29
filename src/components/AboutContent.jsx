@@ -7,12 +7,12 @@ import { useLanguage } from '@/contexts/LanguageContext'
 const data = {
   es: {
     heroTag: 'Nuestra Historia',
-    heroTitle: 'Sobre Infinity Solutions of Roxbury LLC',
+    heroTitle: 'Sobre Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
     heroSubtitle: 'Nacimos con un propósito claro: brindar servicios profesionales de calidad a la comunidad hispana de Boston, en su idioma y con la confianza que merecen.',
     storyTag: 'Nuestra Historia',
     storyTitle: 'Una empresa nacida para servir a nuestra comunidad',
     storyParagraphs: [
-      'Infinity Solutions of Roxbury LLC nació en Boston, Massachusetts, con un objetivo claro: ofrecer servicios financieros, contables y administrativos de la más alta calidad a la comunidad latina e hispana de Nueva Inglaterra.',
+      'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services nació en Boston, Massachusetts, con un objetivo claro: ofrecer servicios financieros, contables y administrativos de la más alta calidad a la comunidad latina e hispana de Nueva Inglaterra.',
       'Entendemos de primera mano los retos que enfrentan los inmigrantes y emprendedores en este país: barreras de idioma, sistemas complejos, y la necesidad de encontrar alguien de confianza que los guíe sin complicaciones ni sorpresas.',
       'Por eso construimos una empresa donde el cliente siempre es lo primero. Un lugar donde puedes llegar con tus dudas, tus documentos y tus metas, y salir con claridad, tranquilidad y respuestas reales.',
       'Hoy atendemos a cientos de familias y negocios en Boston y sus alrededores, y seguimos creciendo porque nuestros clientes confían en nosotros y nos recomiendan. Eso es lo que más nos enorgullece.',
@@ -40,12 +40,12 @@ const data = {
   },
   en: {
     heroTag: 'Our Story',
-    heroTitle: 'About Infinity Solutions of Roxbury LLC',
+    heroTitle: 'About Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
     heroSubtitle: 'We were born with a clear purpose: to provide quality professional services to the Hispanic community in Boston, in their language and with the trust they deserve.',
     storyTag: 'Our Story',
     storyTitle: 'A company born to serve our community',
     storyParagraphs: [
-      'Infinity Solutions of Roxbury LLC was founded in Boston, Massachusetts, with one clear goal: to provide the highest-quality financial, accounting, and administrative services to the Latino and Hispanic community of New England.',
+      'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services was founded in Boston, Massachusetts, with one clear goal: to provide the highest-quality financial, accounting, and administrative services to the Latino and Hispanic community of New England.',
       'We understand firsthand the challenges immigrants and entrepreneurs face in this country: language barriers, complex systems, and the need to find someone trustworthy who will guide them without complications or surprises.',
       'That is why we built a company where the client always comes first. A place where you can come with your questions, your documents, and your goals — and leave with clarity, peace of mind, and real answers.',
       'Today we serve hundreds of families and businesses in Boston and the surrounding area, and we continue to grow because our clients trust us and refer us to others. That is what we are most proud of.',

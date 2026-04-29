@@ -221,7 +221,7 @@ export default function ContactForm() {
               <a href="/privacy" target="_blank" className="text-gold-600 hover:underline font-semibold">Privacy Policy</a>{' '}
               and the{' '}
               <a href="/terms" target="_blank" className="text-gold-600 hover:underline font-semibold">Terms &amp; Conditions</a>{' '}
-              of Infinity Solutions of Roxbury LLC, and I authorize the company to contact me regarding my inquiry.{' '}
+              of Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services, and I authorize the company to contact me regarding my inquiry.{' '}
               <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">View legal disclaimer.</a>
             </>
           ) : (
@@ -230,7 +230,7 @@ export default function ContactForm() {
               <a href="/privacy" target="_blank" className="text-gold-600 hover:underline font-semibold">Política de Privacidad</a>{' '}
               y los{' '}
               <a href="/terms" target="_blank" className="text-gold-600 hover:underline font-semibold">Términos y Condiciones</a>{' '}
-              de Infinity Solutions of Roxbury LLC, y autorizo que la empresa me contacte en relación con mi consulta.{' '}
+              de Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services, y autorizo que la empresa me contacte en relación con mi consulta.{' '}
               <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">Ver aviso legal.</a>
             </>
           )}

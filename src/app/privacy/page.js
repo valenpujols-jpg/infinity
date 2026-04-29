@@ -4,7 +4,7 @@ import PrivacidadContent from '@/components/PrivacidadContent'
 export const metadata = {
   title: 'Privacy Policy | Política de Privacidad',
   description:
-    'Privacy Policy of Infinity Solutions of Roxbury LLC — learn how we collect, use and protect your personal information.',
+    'Privacy Policy of Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services — learn how we collect, use and protect your personal information.',
 }
 
 export default function PrivacyPage() {

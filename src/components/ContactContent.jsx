@@ -19,7 +19,7 @@ const data = {
     hours: ['9:00 AM – 6:00 PM', '10:00 AM – 3:00 PM', 'Cerrado'],
     closedStyle: [false, false, true],
     instagramLabel: 'Síguenos en Instagram',
-    mapTitle: 'Infinity Solutions of Roxbury LLC - Ubicación',
+    mapTitle: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services - Ubicación',
     mapFooter: 'Abrir en Google Maps',
   },
   en: {
@@ -36,7 +36,7 @@ const data = {
     hours: ['9:00 AM – 6:00 PM', '10:00 AM – 3:00 PM', 'Closed'],
     closedStyle: [false, false, true],
     instagramLabel: 'Follow us on Instagram',
-    mapTitle: 'Infinity Solutions of Roxbury LLC - Location',
+    mapTitle: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services - Location',
     mapFooter: 'Open in Google Maps',
   },
 }

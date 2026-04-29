@@ -6,20 +6,20 @@ import WhatsAppButton from '@/components/WhatsAppButton'
 
 export const metadata = {
   title: {
-    default: 'Infinity Solutions of Roxbury LLC | Taxes, Bookkeeping, Payroll y Migración en Boston, MA',
-    template: '%s | Infinity Solutions of Roxbury LLC',
+    default: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services | Taxes, Bookkeeping, Payroll y Migración en Boston, MA',
+    template: '%s | Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
   },
   description:
-    'Infinity Solutions of Roxbury LLC ofrece servicios profesionales de taxes, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA. Atención personalizada en español.',
+    'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de taxes, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA. Atención personalizada en español.',
   keywords: ['tax preparation Boston','bookkeeping Boston','payroll services Boston','credit repair Boston','immigration documents Boston','taxes en español Boston'],
-  authors: [{ name: 'Infinity Solutions of Roxbury LLC' }],
+  authors: [{ name: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services' }],
   metadataBase: new URL('https://infinityssinc.com'),
   openGraph: {
     type: 'website',
     locale: 'es_US',
     url: 'https://infinityssinc.com',
-    siteName: 'Infinity Solutions of Roxbury LLC',
-    title: 'Infinity Solutions of Roxbury LLC | Soluciones Profesionales en Boston, MA',
+    siteName: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
+    title: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services | Soluciones Profesionales en Boston, MA',
     description: 'Taxes, Bookkeeping, Payroll, Reparación de Crédito y Trámites Migratorios en Boston, MA.',
   },
 }

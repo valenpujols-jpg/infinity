@@ -7,7 +7,7 @@ const content = {
     intro: (
       <p>
         Los presentes Términos y Condiciones ("Términos") rigen el acceso y uso del sitio web
-        de <strong>Infinity Solutions of Roxbury LLC</strong> (en adelante "la Empresa", "nosotros"),
+        de <strong>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong> (en adelante "la Empresa", "nosotros"),
         con domicilio en 1 West Cottage Street, Roxbury, MA 02119. Al acceder o utilizar nuestro
         sitio web y servicios, confirmas que has leído, entendido y aceptado estos Términos en
         su totalidad.
@@ -37,7 +37,7 @@ const content = {
         title: '2. Descripción de servicios',
         body: (
           <>
-            <p>Infinity Solutions of Roxbury LLC ofrece servicios profesionales de preparación de impuestos (taxes individuales y corporativos), contabilidad (bookkeeping), gestión de nómina (payroll), reparación de crédito y consultoría y preparación de documentos administrativos relacionados con trámites migratorios.</p>
+            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de preparación de impuestos (taxes individuales y corporativos), contabilidad (bookkeeping), gestión de nómina (payroll), reparación de crédito y consultoría y preparación de documentos administrativos relacionados con trámites migratorios.</p>
             <p className="mt-3">La descripción de servicios en nuestro sitio web es de carácter informativo. Los alcances específicos de cada servicio serán acordados por escrito o verbalmente al inicio de cada relación contractual. La Empresa se reserva el derecho de modificar, suspender o discontinuar cualquier servicio sin previo aviso.</p>
           </>
         ),
@@ -52,7 +52,7 @@ const content = {
         title: '4. Limitación de responsabilidad',
         body: (
           <>
-            <p className="mb-3">En la máxima medida permitida por la ley aplicable, Infinity Solutions of Roxbury LLC no será responsable por:</p>
+            <p className="mb-3">En la máxima medida permitida por la ley aplicable, Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services no será responsable por:</p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
               <li>Daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o la imposibilidad de uso de nuestro sitio web o servicios</li>
               <li>Pérdidas de datos, ingresos, ganancias o negocios</li>
@@ -81,7 +81,7 @@ const content = {
       {
         title: '6. Propiedad intelectual',
         body: (
-          <p>Todo el contenido de este sitio web, incluyendo pero no limitado a textos, imágenes, logotipos, gráficos, diseños, íconos y código, es propiedad de Infinity Solutions of Roxbury LLC o de sus respectivos titulares, y está protegido por las leyes de derechos de autor y propiedad intelectual aplicables en los Estados Unidos. Queda prohibida su reproducción, distribución o uso no autorizado sin consentimiento previo y por escrito de la Empresa.</p>
+          <p>Todo el contenido de este sitio web, incluyendo pero no limitado a textos, imágenes, logotipos, gráficos, diseños, íconos y código, es propiedad de Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services o de sus respectivos titulares, y está protegido por las leyes de derechos de autor y propiedad intelectual aplicables en los Estados Unidos. Queda prohibida su reproducción, distribución o uso no autorizado sin consentimiento previo y por escrito de la Empresa.</p>
         ),
       },
       {
@@ -121,31 +121,15 @@ const content = {
         ),
       },
       {
-        title: '13. Comunicaciones por Mensaje de Texto (SMS)',
+        title: '13. Términos y Condiciones de SMS',
         body: (
           <>
-            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-4">
-              <p className="font-semibold text-navy-900 mb-1">Programa de mensajes de texto — solo comunicaciones de servicio</p>
-              <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services puede enviarte mensajes de texto (SMS/MMS) exclusivamente relacionados con los servicios que has solicitado o contratado. Estas comunicaciones <strong>no son de carácter publicitario ni de mercadeo</strong>.</p>
-            </div>
-            <p className="mb-3">Los mensajes que podemos enviarte incluyen:</p>
-            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
-              <li>Confirmaciones y recordatorios de citas</li>
-              <li>Actualizaciones sobre el estado de tu declaración de impuestos o trámite activo</li>
-              <li>Avisos sobre documentos pendientes requeridos para completar tu servicio</li>
-              <li>Notificaciones importantes relacionadas con fechas límite (IRS, payroll, etc.)</li>
-              <li>Respuestas a consultas que hayas enviado a través de nuestro formulario de contacto</li>
-              <li>Soporte al cliente relacionado con un servicio activo</li>
-            </ul>
-            <p className="mb-3">Al marcar la casilla de consentimiento SMS en nuestro formulario de contacto, aceptas recibir este tipo de mensajes al número de teléfono que proporcionaste. <strong>El consentimiento no es condición para recibir nuestros servicios.</strong></p>
-            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
-              <li><strong>Tarifas:</strong> Pueden aplicar tarifas estándar de mensajes y datos según tu plan de telefonía.</li>
-              <li><strong>Frecuencia:</strong> La frecuencia de mensajes varía según la actividad de tu caso.</li>
-              <li><strong>Para dejar de recibir mensajes:</strong> Responde STOP en cualquier momento. Recibirás una confirmación y no se te enviarán más mensajes.</li>
-              <li><strong>Para asistencia:</strong> Responde HELP o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a>.</li>
-            </ul>
-            <p className="mb-3"><strong>Privacidad:</strong> No vendemos, alquilamos ni compartimos tu número de teléfono con terceros para ningún propósito, incluyendo publicidad o mercadeo. Tu información se usa exclusivamente para enviarte las comunicaciones de servicio descritas en este apartado.</p>
-            <p>Los operadores de telefonía (AT&T, T-Mobile, Verizon, y otros) no son responsables por los mensajes enviados a través de este programa.</p>
+            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services puede enviar mensajes SMS no comerciales y relacionados con el servicio sobre recordatorios de citas, actualizaciones de servicios fiscales, actualizaciones de solicitudes de ITIN, actualizaciones del estado de documentos y soporte al cliente.</p>
+            <p className="mb-4">La frecuencia de mensajes varía. Pueden aplicar tarifas de mensajes y datos.</p>
+            <p className="mb-4">Responde STOP para cancelar la recepción de mensajes SMS en cualquier momento. Responde HELP para asistencia o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> o <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
+            <p className="mb-4">El consentimiento para SMS no es una condición de compra.</p>
+            <p className="mb-4">Los datos de consentimiento SMS no serán vendidos, compartidos ni alquilados a terceros con fines de marketing o promoción.</p>
+            <p>Política de Privacidad: <a href="/privacy" className="text-gold-600 font-semibold hover:underline">https://www.infinityssinc.com/privacy</a></p>
           </>
         ),
       },
@@ -158,7 +142,7 @@ const content = {
     intro: (
       <p>
         These Terms and Conditions ("Terms") govern access to and use of the website of{' '}
-        <strong>Infinity Solutions of Roxbury LLC</strong> (hereinafter "the Company," "we," or "us"),
+        <strong>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong> (hereinafter "the Company," "we," or "us"),
         located at 1 West Cottage Street, Roxbury, MA 02119. By accessing or using our website and
         services, you confirm that you have read, understood, and accepted these Terms in their entirety.
       </p>
@@ -187,7 +171,7 @@ const content = {
         title: '2. Description of Services',
         body: (
           <>
-            <p>Infinity Solutions of Roxbury LLC provides professional services including individual and corporate tax preparation, bookkeeping, payroll management, credit repair, and consulting and administrative document preparation related to immigration matters.</p>
+            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services provides professional services including individual and corporate tax preparation, bookkeeping, payroll management, credit repair, and consulting and administrative document preparation related to immigration matters.</p>
             <p className="mt-3">The service descriptions on our website are for informational purposes only. The specific scope of each service will be agreed upon in writing or verbally at the start of each contractual relationship. The Company reserves the right to modify, suspend, or discontinue any service without prior notice.</p>
           </>
         ),
@@ -202,7 +186,7 @@ const content = {
         title: '4. Limitation of Liability',
         body: (
           <>
-            <p className="mb-3">To the maximum extent permitted by applicable law, Infinity Solutions of Roxbury LLC shall not be liable for:</p>
+            <p className="mb-3">To the maximum extent permitted by applicable law, Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services shall not be liable for:</p>
             <ul className="list-disc list-inside space-y-1.5 ml-2">
               <li>Direct, indirect, incidental, special, or consequential damages arising from the use or inability to use our website or services</li>
               <li>Loss of data, revenue, profits, or business</li>
@@ -231,7 +215,7 @@ const content = {
       {
         title: '6. Intellectual Property',
         body: (
-          <p>All content on this website, including but not limited to text, images, logos, graphics, designs, icons, and code, is the property of Infinity Solutions of Roxbury LLC or its respective owners, and is protected by applicable US copyright and intellectual property laws. Reproduction, distribution, or unauthorized use without prior written consent from the Company is prohibited.</p>
+          <p>All content on this website, including but not limited to text, images, logos, graphics, designs, icons, and code, is the property of Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services or its respective owners, and is protected by applicable US copyright and intellectual property laws. Reproduction, distribution, or unauthorized use without prior written consent from the Company is prohibited.</p>
         ),
       },
       {
@@ -271,31 +255,15 @@ const content = {
         ),
       },
       {
-        title: '13. Text Message (SMS) Communications',
+        title: '13. SMS Terms and Conditions',
         body: (
           <>
-            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-4">
-              <p className="font-semibold text-navy-900 mb-1">Text messaging program — service communications only</p>
-              <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services may send you text messages (SMS/MMS) exclusively related to the services you have requested or contracted. These communications are <strong>not marketing or promotional in nature</strong>.</p>
-            </div>
-            <p className="mb-3">Messages we may send include:</p>
-            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
-              <li>Appointment confirmations and reminders</li>
-              <li>Status updates on your active tax return or filing</li>
-              <li>Notices about documents needed to complete your service</li>
-              <li>Important notifications related to deadlines (IRS, payroll, etc.)</li>
-              <li>Replies to inquiries you submitted through our contact form</li>
-              <li>Customer support related to an active service</li>
-            </ul>
-            <p className="mb-3">By checking the SMS consent box on our contact form, you agree to receive these messages at the phone number you provided. <strong>Consent is not a condition of receiving our services.</strong></p>
-            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
-              <li><strong>Rates:</strong> Msg &amp; data rates may apply depending on your mobile plan.</li>
-              <li><strong>Frequency:</strong> Message frequency varies based on your case activity.</li>
-              <li><strong>To stop receiving messages:</strong> Reply STOP at any time. You will receive a confirmation and no further messages will be sent.</li>
-              <li><strong>For assistance:</strong> Reply HELP or contact us at <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a>.</li>
-            </ul>
-            <p className="mb-3"><strong>Privacy:</strong> We do not sell, rent, or share your phone number with third parties for any purpose, including advertising or marketing. Your information is used solely to send the service communications described in this section.</p>
-            <p>Mobile carriers (AT&amp;T, T-Mobile, Verizon, and others) are not liable for messages sent through this program.</p>
+            <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services may send non-marketing, service-related SMS messages regarding appointment reminders, tax service updates, ITIN application updates, document status updates, and customer support.</p>
+            <p className="mb-4">Message frequency varies. Message and data rates may apply.</p>
+            <p className="mb-4">Reply STOP to opt out of SMS messages at any time. Reply HELP for assistance or contact us at <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> or <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
+            <p className="mb-4">SMS consent is not a condition of purchase.</p>
+            <p className="mb-4">SMS opt-in data and consent will not be sold, shared, or rented to third parties for marketing or promotional purposes.</p>
+            <p>Privacy Policy: <a href="/privacy" className="text-gold-600 font-semibold hover:underline">https://www.infinityssinc.com/privacy</a></p>
           </>
         ),
       },
@@ -327,7 +295,7 @@ export default function TerminosContent() {
         <h2 className="text-lg font-bold mb-3">{c.contactTitle}</h2>
         <p className="text-gray-300 text-sm mb-4">{c.contactDesc}</p>
         <div className="space-y-1.5 text-sm text-gray-300">
-          <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+          <p><strong className="text-white">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong></p>
           <p>1 West Cottage Street, Roxbury, MA 02119</p>
           <p><a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a></p>
           <p><a href="mailto:info@infinityssinc.com" className="text-gold-400 hover:underline">info@infinityssinc.com</a></p>

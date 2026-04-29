@@ -48,7 +48,7 @@ const data = {
         id: 'immigration',
         title: 'Consultoría y Preparación de Documentos Migratorios',
         icon: immigrationIcon,
-        description: 'En Infinity Solutions of Roxbury LLC ofrecemos orientación y preparación de documentos para diversos trámites migratorios de forma organizada, clara y profesional. Nuestro equipo te acompaña en cada etapa del proceso administrativo, asegurándonos de que toda tu documentación esté completa y correctamente presentada.',
+        description: 'En Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrecemos orientación y preparación de documentos para diversos trámites migratorios de forma organizada, clara y profesional. Nuestro equipo te acompaña en cada etapa del proceso administrativo, asegurándonos de que toda tu documentación esté completa y correctamente presentada.',
         benefits: [
           'Revisión completa de tu situación y documentos actuales',
           'Orientación clara y paso a paso en el proceso',
@@ -149,7 +149,7 @@ const data = {
         id: 'immigration',
         title: 'Immigration Document Consulting & Preparation',
         icon: immigrationIcon,
-        description: 'At Infinity Solutions of Roxbury LLC we offer guidance and document preparation for various immigration administrative processes in an organized, clear and professional manner. Our team accompanies you at every stage of the administrative process, ensuring all your documentation is complete and correctly presented.',
+        description: 'At Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services we offer guidance and document preparation for various immigration administrative processes in an organized, clear and professional manner. Our team accompanies you at every stage of the administrative process, ensuring all your documentation is complete and correctly presented.',
         benefits: [
           'Full review of your current situation and documents',
           'Clear, step-by-step guidance through the process',

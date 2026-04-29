@@ -209,7 +209,7 @@ export default function CookiesContent() {
         <h2 className="text-lg font-bold mb-3">{c.contactTitle}</h2>
         <p className="text-gray-300 text-sm mb-4">{c.contactDesc}</p>
         <div className="space-y-1.5 text-sm text-gray-300">
-          <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+          <p><strong className="text-white">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong></p>
           <p>1 West Cottage Street, Roxbury, MA 02119</p>
           <p><a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a></p>
           <p><a href="mailto:info@infinityssinc.com" className="text-gold-400 hover:underline">info@infinityssinc.com</a></p>

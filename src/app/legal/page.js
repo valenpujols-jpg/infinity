@@ -4,7 +4,7 @@ import AvisoLegalContent from '@/components/AvisoLegalContent'
 export const metadata = {
   title: 'Legal Disclaimer | Aviso Legal',
   description:
-    'Legal disclaimer of Infinity Solutions of Roxbury LLC — important information about the scope and limitations of our services.',
+    'Legal disclaimer of Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services — important information about the scope and limitations of our services.',
 }
 
 export default function LegalPage() {
