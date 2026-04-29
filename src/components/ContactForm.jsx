@@ -204,12 +204,11 @@ export default function ContactForm() {
         </label>
       </div>
 
-      {/* Required legal consent checkbox */}
+      {/* Optional legal consent checkbox */}
       <div className="flex items-start gap-3 p-4 bg-gray-50 rounded-xl border border-gray-200">
         <input
           id="consent"
           type="checkbox"
-          required
           checked={consent}
           onChange={(e) => setConsent(e.target.checked)}
           className="mt-0.5 w-4 h-4 accent-gold-500 shrink-0 cursor-pointer"
@@ -234,13 +233,12 @@ export default function ContactForm() {
               <a href="/legal" target="_blank" className="text-gold-600 hover:underline font-semibold">Ver aviso legal.</a>
             </>
           )}
-          <span className="text-red-500 ml-1">*</span>
         </label>
       </div>
 
       <button
         type="submit"
-        disabled={loading || !consent}
+        disabled={loading}
         className="w-full flex items-center justify-center gap-2 bg-gold-500 hover:bg-gold-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold px-6 py-4 rounded-xl transition-all duration-200 text-base shadow-md hover:shadow-lg"
       >
         {loading ? (

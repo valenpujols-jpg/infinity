@@ -28,8 +28,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Image src="/images/logo-transparente.png" alt="Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services" width={180} height={60} className="h-14 w-auto object-contain mb-3" />
-            <p className="text-white font-semibold text-sm mb-1 leading-snug">Infinity Solutions of Roxbury LLC</p>
-            <p className="text-gold-400 font-bold text-xs mb-4 uppercase tracking-wide">DBA VAESCA Tax Services</p>
+            <p className="text-white font-semibold text-sm mb-4 leading-snug">Infinity Solutions of Roxbury LLC <span className="text-gold-400">DBA VAESCA Tax Services</span></p>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">{f.desc}</p>
             <a href="https://www.instagram.com/infinityss.inc" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-gold-400 transition-colors text-sm">
               <Instagram size={18} />@infinityss.inc
