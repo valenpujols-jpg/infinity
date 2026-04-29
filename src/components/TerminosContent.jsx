@@ -117,7 +117,36 @@ const content = {
       {
         title: '12. Comunicaciones electrónicas (CAN-SPAM Act)',
         body: (
-          <p>Cumplimos con la Ley CAN-SPAM de Estados Unidos. Si te has suscrito a comunicaciones de nuestra parte, puedes darte de baja en cualquier momento enviando un correo a{' '}<a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>{' '}con el asunto "Cancelar suscripción". Procesaremos tu solicitud en un plazo máximo de 10 días hábiles.</p>
+          <p>Cumplimos con la Ley CAN-SPAM de Estados Unidos. Si deseas dejar de recibir comunicaciones por correo electrónico de nuestra parte, puedes solicitarlo en cualquier momento enviando un correo a{' '}<a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>{' '}con el asunto "Cancelar suscripción". Procesaremos tu solicitud en un plazo máximo de 10 días hábiles.</p>
+        ),
+      },
+      {
+        title: '13. Comunicaciones por Mensaje de Texto (SMS)',
+        body: (
+          <>
+            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-4">
+              <p className="font-semibold text-navy-900 mb-1">Programa de mensajes de texto — solo comunicaciones de servicio</p>
+              <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services puede enviarte mensajes de texto (SMS/MMS) exclusivamente relacionados con los servicios que has solicitado o contratado. Estas comunicaciones <strong>no son de carácter publicitario ni de mercadeo</strong>.</p>
+            </div>
+            <p className="mb-3">Los mensajes que podemos enviarte incluyen:</p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li>Confirmaciones y recordatorios de citas</li>
+              <li>Actualizaciones sobre el estado de tu declaración de impuestos o trámite activo</li>
+              <li>Avisos sobre documentos pendientes requeridos para completar tu servicio</li>
+              <li>Notificaciones importantes relacionadas con fechas límite (IRS, payroll, etc.)</li>
+              <li>Respuestas a consultas que hayas enviado a través de nuestro formulario de contacto</li>
+              <li>Soporte al cliente relacionado con un servicio activo</li>
+            </ul>
+            <p className="mb-3">Al marcar la casilla de consentimiento SMS en nuestro formulario de contacto, aceptas recibir este tipo de mensajes al número de teléfono que proporcionaste. <strong>El consentimiento no es condición para recibir nuestros servicios.</strong></p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li><strong>Tarifas:</strong> Pueden aplicar tarifas estándar de mensajes y datos según tu plan de telefonía.</li>
+              <li><strong>Frecuencia:</strong> La frecuencia de mensajes varía según la actividad de tu caso.</li>
+              <li><strong>Para dejar de recibir mensajes:</strong> Responde STOP en cualquier momento. Recibirás una confirmación y no se te enviarán más mensajes.</li>
+              <li><strong>Para asistencia:</strong> Responde HELP o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a>.</li>
+            </ul>
+            <p className="mb-3"><strong>Privacidad:</strong> No vendemos, alquilamos ni compartimos tu número de teléfono con terceros para ningún propósito, incluyendo publicidad o mercadeo. Tu información se usa exclusivamente para enviarte las comunicaciones de servicio descritas en este apartado.</p>
+            <p>Los operadores de telefonía (AT&T, T-Mobile, Verizon, y otros) no son responsables por los mensajes enviados a través de este programa.</p>
+          </>
         ),
       },
     ],
@@ -238,7 +267,36 @@ const content = {
       {
         title: '12. Electronic Communications (CAN-SPAM Act)',
         body: (
-          <p>We comply with the US CAN-SPAM Act. If you have subscribed to communications from us, you may unsubscribe at any time by emailing{' '}<a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>{' '}with the subject line "Unsubscribe." We will process your request within a maximum of 10 business days.</p>
+          <p>We comply with the US CAN-SPAM Act. If you wish to stop receiving email communications from us, you may request this at any time by emailing{' '}<a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>{' '}with the subject line "Unsubscribe." We will process your request within a maximum of 10 business days.</p>
+        ),
+      },
+      {
+        title: '13. Text Message (SMS) Communications',
+        body: (
+          <>
+            <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-4">
+              <p className="font-semibold text-navy-900 mb-1">Text messaging program — service communications only</p>
+              <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services may send you text messages (SMS/MMS) exclusively related to the services you have requested or contracted. These communications are <strong>not marketing or promotional in nature</strong>.</p>
+            </div>
+            <p className="mb-3">Messages we may send include:</p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li>Appointment confirmations and reminders</li>
+              <li>Status updates on your active tax return or filing</li>
+              <li>Notices about documents needed to complete your service</li>
+              <li>Important notifications related to deadlines (IRS, payroll, etc.)</li>
+              <li>Replies to inquiries you submitted through our contact form</li>
+              <li>Customer support related to an active service</li>
+            </ul>
+            <p className="mb-3">By checking the SMS consent box on our contact form, you agree to receive these messages at the phone number you provided. <strong>Consent is not a condition of receiving our services.</strong></p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li><strong>Rates:</strong> Msg &amp; data rates may apply depending on your mobile plan.</li>
+              <li><strong>Frequency:</strong> Message frequency varies based on your case activity.</li>
+              <li><strong>To stop receiving messages:</strong> Reply STOP at any time. You will receive a confirmation and no further messages will be sent.</li>
+              <li><strong>For assistance:</strong> Reply HELP or contact us at <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a>.</li>
+            </ul>
+            <p className="mb-3"><strong>Privacy:</strong> We do not sell, rent, or share your phone number with third parties for any purpose, including advertising or marketing. Your information is used solely to send the service communications described in this section.</p>
+            <p>Mobile carriers (AT&amp;T, T-Mobile, Verizon, and others) are not liable for messages sent through this program.</p>
+          </>
         ),
       },
     ],
