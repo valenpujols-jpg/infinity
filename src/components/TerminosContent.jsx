@@ -124,10 +124,6 @@ const content = {
         title: '13. Términos y Condiciones de SMS',
         body: (
           <>
-            <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-5">
-              <p className="font-bold text-amber-800 text-sm uppercase tracking-wide mb-1">Aviso CAN-SPAM</p>
-              <p className="text-amber-900 text-sm">Este servicio de SMS es exclusivamente para comunicaciones de servicio no comerciales. <strong>No enviamos SMS con fines de marketing, publicidad ni promoción.</strong></p>
-            </div>
             <p className="mb-4">Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services envía mensajes SMS no comerciales relacionados con recordatorios de citas, servicios de taxes, actualizaciones de ITIN, actualizaciones del estado de documentos y soporte al cliente.</p>
             <p className="mb-4">La frecuencia de mensajes varía. Pueden aplicar tarifas de mensajes y datos.</p>
             <p className="mb-4">Puedes responder STOP en cualquier momento para dejar de recibir mensajes SMS. Para asistencia, responde HELP o contáctanos al <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> o <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.</p>
