@@ -5,7 +5,7 @@ import CTA from '@/components/CTA'
 export const metadata = {
   title: 'Servicios',
   description:
-    'Conoce todos los servicios de Infinity Solutions Services Inc: taxes individuales, taxes corporativos, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA.',
+    'Conoce todos los servicios de Infinity Solutions of Roxbury LLC: taxes individuales, taxes corporativos, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA.',
 }
 
 const services = [
@@ -18,7 +18,7 @@ const services = [
       </svg>
     ),
     description:
-      'En Infinity Solutions Services Inc ofrecemos orientación y preparación de documentos para diversos trámites migratorios de forma organizada, clara y profesional. Nuestro equipo te acompaña en cada etapa del proceso administrativo, asegurándonos de que toda tu documentación esté completa y correctamente presentada.',
+      'En Infinity Solutions of Roxbury LLC ofrecemos orientación y preparación de documentos para diversos trámites migratorios de forma organizada, clara y profesional. Nuestro equipo te acompaña en cada etapa del proceso administrativo, asegurándonos de que toda tu documentación esté completa y correctamente presentada.',
     benefits: [
       'Revisión completa de tu situación y documentos actuales',
       'Orientación clara y paso a paso en el proceso',

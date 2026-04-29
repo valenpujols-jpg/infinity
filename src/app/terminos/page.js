@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Términos y Condiciones',
   description:
-    'Términos y Condiciones de uso del sitio web y servicios de Infinity Solutions Services Inc, Boston, MA.',
+    'Términos y Condiciones de uso del sitio web y servicios de Infinity Solutions of Roxbury LLC, Boston, MA.',
 }
 
 export default function TerminosPage() {
@@ -31,8 +31,8 @@ export default function TerminosPage() {
             <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
               <p>
                 Los presentes Términos y Condiciones ("Términos") rigen el acceso y uso del sitio web
-                de <strong>Infinity Solutions Services Inc</strong> (en adelante "la Empresa", "nosotros"),
-                con domicilio en 1 W Cottage Street, Boston, MA 02125. Al acceder o utilizar nuestro
+                de <strong>Infinity Solutions of Roxbury LLC</strong> (en adelante "la Empresa", "nosotros"),
+                con domicilio en 1 West Cottage Street, Roxbury, MA 02119. Al acceder o utilizar nuestro
                 sitio web y servicios, confirmas que has leído, entendido y aceptado estos Términos en
                 su totalidad.
               </p>
@@ -68,7 +68,7 @@ export default function TerminosPage() {
                 2. Descripción de servicios
               </h2>
               <p>
-                Infinity Solutions Services Inc ofrece servicios profesionales de preparación de
+                Infinity Solutions of Roxbury LLC ofrece servicios profesionales de preparación de
                 impuestos (taxes individuales y corporativos), contabilidad (bookkeeping), gestión
                 de nómina (payroll), reparación de crédito y consultoría y preparación de documentos
                 administrativos relacionados con trámites migratorios.
@@ -99,7 +99,7 @@ export default function TerminosPage() {
                 4. Limitación de responsabilidad
               </h2>
               <p className="mb-3">
-                En la máxima medida permitida por la ley aplicable, Infinity Solutions Services Inc
+                En la máxima medida permitida por la ley aplicable, Infinity Solutions of Roxbury LLC
                 no será responsable por:
               </p>
               <ul className="list-disc list-inside space-y-1.5 ml-2">
@@ -229,8 +229,8 @@ export default function TerminosPage() {
                 Para preguntas sobre estos Términos y Condiciones:
               </p>
               <div className="space-y-1.5 text-sm text-gray-300">
-                <p><strong className="text-white">Infinity Solutions Services Inc</strong></p>
-                <p>1 W Cottage Street, Boston, MA 02125</p>
+                <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+                <p>1 West Cottage Street, Roxbury, MA 02119</p>
                 <p><a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a></p>
                 <p><a href="mailto:info@infinityssinc.com" className="text-gold-400 hover:underline">info@infinityssinc.com</a></p>
               </div>

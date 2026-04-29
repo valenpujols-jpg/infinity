@@ -7,7 +7,7 @@ import Testimonials from '@/components/Testimonials'
 import CTA from '@/components/CTA'
 
 export const metadata = {
-  title: 'Infinity Solutions Services Inc | Taxes, Bookkeeping, Payroll y Migración en Boston, MA',
+  title: 'Infinity Solutions of Roxbury LLC | Taxes, Bookkeeping, Payroll y Migración en Boston, MA',
   description:
     'Soluciones profesionales de taxes, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA. Atención personalizada en español.',
 }

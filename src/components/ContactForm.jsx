@@ -178,7 +178,7 @@ export default function ContactForm() {
           <a href="/terminos" target="_blank" className="text-gold-600 hover:underline font-semibold">
             Términos y Condiciones
           </a>{' '}
-          de Infinity Solutions Services Inc, y autorizo que la empresa me contacte en relación
+          de Infinity Solutions of Roxbury LLC, y autorizo que la empresa me contacte en relación
           con mi consulta. Entiendo que mis datos serán tratados de forma confidencial y no
           serán compartidos con terceros sin mi consentimiento.{' '}
           <a href="/aviso-legal" target="_blank" className="text-gold-600 hover:underline font-semibold">

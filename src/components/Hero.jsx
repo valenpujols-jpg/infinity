@@ -37,7 +37,7 @@ export default function Hero() {
             <div className="mb-6">
               <Image
                 src="/images/logo-transparente.png"
-                alt="Infinity Solutions Services Inc"
+                alt="Infinity Solutions of Roxbury LLC"
                 width={240}
                 height={78}
                 className="h-16 w-auto object-contain"

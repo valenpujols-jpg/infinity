@@ -5,7 +5,7 @@ import CTA from '@/components/CTA'
 export const metadata = {
   title: 'Sobre Nosotros',
   description:
-    'Conoce la historia, misión, visión y valores de Infinity Solutions Services Inc. Una empresa comprometida con la comunidad hispana en Boston, MA.',
+    'Conoce la historia, misión, visión y valores de Infinity Solutions of Roxbury LLC. Una empresa comprometida con la comunidad hispana en Boston, MA.',
 }
 
 const values = [
@@ -46,7 +46,7 @@ export default function SobreNosotrosPage() {
             Nuestra Historia
           </p>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-5">
-            Sobre Infinity Solutions Services Inc
+            Sobre Infinity Solutions of Roxbury LLC
           </h1>
           <p className="text-gray-300 text-lg leading-relaxed max-w-2xl mx-auto">
             Nacimos con un propósito claro: brindar servicios profesionales de calidad a la
@@ -72,7 +72,7 @@ export default function SobreNosotrosPage() {
               <div className="gold-divider mt-4 mb-6" />
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Infinity Solutions Services Inc nació en Boston, Massachusetts, con un objetivo claro:
+                  Infinity Solutions of Roxbury LLC nació en Boston, Massachusetts, con un objetivo claro:
                   ofrecer servicios financieros, contables y administrativos de la más alta calidad a
                   la comunidad latina e hispana de Nueva Inglaterra.
                 </p>

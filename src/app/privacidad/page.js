@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Política de Privacidad',
   description:
-    'Política de Privacidad de Infinity Solutions Services Inc. Conoce cómo recopilamos, usamos y protegemos tu información personal.',
+    'Política de Privacidad de Infinity Solutions of Roxbury LLC. Conoce cómo recopilamos, usamos y protegemos tu información personal.',
 }
 
 export default function PrivacidadPage() {
@@ -34,8 +34,8 @@ export default function PrivacidadPage() {
             {/* Intro */}
             <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
               <p>
-                En <strong>Infinity Solutions Services Inc</strong> ("la Empresa", "nosotros", "nuestro"),
-                con domicilio en 1 W Cottage Street, Boston, MA 02125, nos comprometemos a proteger
+                En <strong>Infinity Solutions of Roxbury LLC</strong> ("la Empresa", "nosotros", "nuestro"),
+                con domicilio en 1 West Cottage Street, Roxbury, MA 02119, nos comprometemos a proteger
                 la privacidad y seguridad de la información personal que nos confías. Esta Política de
                 Privacidad explica qué datos recopilamos, cómo los utilizamos y los derechos que
                 tienes sobre tu información.
@@ -237,8 +237,8 @@ export default function PrivacidadPage() {
                 tu información personal, contáctanos:
               </p>
               <div className="space-y-1.5 text-sm text-gray-300">
-                <p><strong className="text-white">Infinity Solutions Services Inc</strong></p>
-                <p>1 W Cottage Street, Boston, MA 02125</p>
+                <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+                <p>1 West Cottage Street, Roxbury, MA 02119</p>
                 <p>
                   <a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a>
                 </p>

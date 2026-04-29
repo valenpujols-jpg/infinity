@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Aviso Legal y Descargo de Responsabilidad',
   description:
-    'Aviso legal y descargo de responsabilidad de Infinity Solutions Services Inc. Información importante sobre los límites de nuestros servicios de taxes, crédito y documentos migratorios.',
+    'Aviso legal y descargo de responsabilidad de Infinity Solutions of Roxbury LLC. Información importante sobre los límites de nuestros servicios de taxes, crédito y documentos migratorios.',
 }
 
 export default function AvisoLegalPage() {
@@ -32,7 +32,7 @@ export default function AvisoLegalPage() {
               <p className="font-bold text-amber-900 mb-2">Aviso Importante</p>
               <p className="text-amber-800">
                 Este documento contiene información legal crítica sobre los alcances y limitaciones
-                de los servicios de Infinity Solutions Services Inc. Lee cuidadosamente antes de
+                de los servicios de Infinity Solutions of Roxbury LLC. Lee cuidadosamente antes de
                 contratar cualquier servicio.
               </p>
             </div>
@@ -49,7 +49,7 @@ export default function AvisoLegalPage() {
                 profesional regulada.
               </p>
               <p className="mt-3">
-                Infinity Solutions Services Inc es una empresa de servicios profesionales de
+                Infinity Solutions of Roxbury LLC es una empresa de servicios profesionales de
                 preparación de documentos y consultoría administrativa. No somos abogados, contadores
                 públicos certificados (CPA) en todas las áreas, ni representantes legales. La
                 información proporcionada en este sitio no reemplaza la consulta con un profesional
@@ -68,7 +68,7 @@ export default function AvisoLegalPage() {
                 </h2>
                 <div className="space-y-3 text-red-900 text-sm">
                   <p>
-                    <strong>Infinity Solutions Services Inc NO es una firma de abogados y NO
+                    <strong>Infinity Solutions of Roxbury LLC NO es una firma de abogados y NO
                     proporciona asesoría legal de inmigración.</strong>
                   </p>
                   <p>
@@ -109,7 +109,7 @@ export default function AvisoLegalPage() {
                 <li>
                   El cliente es <strong>exclusivamente responsable</strong> de la veracidad,
                   exactitud y completitud de toda la información, documentación e ingresos
-                  reportados. Infinity Solutions Services Inc no se hace responsable de las
+                  reportados. Infinity Solutions of Roxbury LLC no se hace responsable de las
                   consecuencias derivadas de información incorrecta, incompleta o fraudulenta
                   proporcionada por el cliente.
                 </li>
@@ -214,8 +214,8 @@ export default function AvisoLegalPage() {
                 contáctanos antes de iniciar cualquier proceso:
               </p>
               <div className="space-y-1.5 text-sm text-gray-300">
-                <p><strong className="text-white">Infinity Solutions Services Inc</strong></p>
-                <p>1 W Cottage Street, Boston, MA 02125</p>
+                <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+                <p>1 West Cottage Street, Roxbury, MA 02119</p>
                 <p><a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a></p>
                 <p><a href="mailto:info@infinityssinc.com" className="text-gold-400 hover:underline">info@infinityssinc.com</a></p>
               </div>

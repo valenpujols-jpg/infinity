@@ -4,7 +4,7 @@ import ContactForm from '@/components/ContactForm'
 export const metadata = {
   title: 'Contacto',
   description:
-    'Contáctanos hoy mismo. Llámanos al 617-669-8210, escríbenos a info@infinityssinc.com o visítanos en 1 W Cottage Street, Boston, MA 02125.',
+    'Contáctanos hoy mismo. Llámanos al 617-669-8210, escríbenos a info@infinityssinc.com o visítanos en 1 West Cottage Street, Roxbury, MA 02119.',
 }
 
 export default function ContactoPage() {
@@ -85,10 +85,10 @@ export default function ContactoPage() {
                   <MapPin size={20} className="text-navy-700" />
                   <h3 className="font-bold text-navy-900 text-lg">Dirección</h3>
                 </div>
-                <p className="text-gray-700 font-medium">1 W Cottage Street</p>
-                <p className="text-gray-600">Boston, MA 02125</p>
+                <p className="text-gray-700 font-medium">1 West Cottage Street</p>
+                <p className="text-gray-600">Roxbury, MA 02119</p>
                 <a
-                  href="https://maps.google.com/?q=1+W+Cottage+Street,+Boston,+MA+02125"
+                  href="https://maps.google.com/?q=1+West+Cottage+Street,+Roxbury,+MA+02119"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 mt-3 text-sm text-gold-600 font-semibold hover:text-gold-700 transition-colors"
@@ -142,20 +142,20 @@ export default function ContactoPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="rounded-2xl overflow-hidden shadow-md border border-gray-200 h-72">
             <iframe
-              title="Infinity Solutions Services Inc - Ubicación"
+              title="Infinity Solutions of Roxbury LLC - Ubicación"
               width="100%"
               height="100%"
               frameBorder="0"
               style={{ border: 0 }}
-              src="https://maps.google.com/maps?q=1+W+Cottage+Street+Boston+MA+02125&output=embed"
+              src="https://maps.google.com/maps?q=1+West+Cottage+Street+Roxbury+MA+02119&output=embed"
               allowFullScreen
               loading="lazy"
             />
           </div>
           <p className="text-center text-sm text-gray-500 mt-3">
-            1 W Cottage Street, Boston, MA 02125 —{' '}
+            1 West Cottage Street, Roxbury, MA 02119 —{' '}
             <a
-              href="https://maps.google.com/?q=1+W+Cottage+Street,+Boston,+MA+02125"
+              href="https://maps.google.com/?q=1+West+Cottage+Street,+Roxbury,+MA+02119"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold-600 hover:underline"

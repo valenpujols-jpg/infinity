@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Image src="/images/logo-transparente.png" alt="Infinity Solutions Services Inc" width={180} height={60} className="h-14 w-auto object-contain mb-4" />
+            <Image src="/images/logo-transparente.png" alt="Infinity Solutions of Roxbury LLC" width={180} height={60} className="h-14 w-auto object-contain mb-4" />
             <p className="text-gray-400 text-sm leading-relaxed mb-5">{f.desc}</p>
             <a href="https://www.instagram.com/infinityss.inc" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray-400 hover:text-gold-400 transition-colors text-sm">
               <Instagram size={18} />@infinityss.inc
@@ -81,7 +81,7 @@ export default function Footer() {
               <li>
                 <div className="flex items-start gap-3 text-gray-400 text-sm">
                   <MapPin size={16} className="mt-0.5 shrink-0 text-gold-500" />
-                  <span>1 W Cottage Street<br />Boston, MA 02125</span>
+                  <span>1 West Cottage Street<br />Roxbury, MA 02119</span>
                 </div>
               </li>
             </ul>
@@ -110,8 +110,8 @@ export default function Footer() {
             ))}
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-            <p className="text-gray-500 text-xs">© {year} Infinity Solutions Services Inc. {f.copyright}</p>
-            <p className="text-gray-600 text-xs">Boston, MA · info@infinityssinc.com</p>
+            <p className="text-gray-500 text-xs">© {year} Infinity Solutions of Roxbury LLC. {f.copyright}</p>
+            <p className="text-gray-600 text-xs">Roxbury, MA · info@infinityssinc.com</p>
           </div>
         </div>
       </div>

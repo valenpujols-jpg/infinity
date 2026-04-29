@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Política de Cookies',
   description:
-    'Política de Cookies de Infinity Solutions Services Inc. Conoce qué cookies usamos y cómo gestionarlas.',
+    'Política de Cookies de Infinity Solutions of Roxbury LLC. Conoce qué cookies usamos y cómo gestionarlas.',
 }
 
 export default function CookiesPage() {
@@ -153,8 +153,8 @@ export default function CookiesPage() {
                 Si tienes preguntas sobre el uso de cookies en nuestro sitio:
               </p>
               <div className="space-y-1.5 text-sm text-gray-300">
-                <p><strong className="text-white">Infinity Solutions Services Inc</strong></p>
-                <p>1 W Cottage Street, Boston, MA 02125</p>
+                <p><strong className="text-white">Infinity Solutions of Roxbury LLC</strong></p>
+                <p>1 West Cottage Street, Roxbury, MA 02119</p>
                 <p><a href="tel:6176698210" className="text-gold-400 hover:underline">617-669-8210</a></p>
                 <p><a href="mailto:info@infinityssinc.com" className="text-gold-400 hover:underline">info@infinityssinc.com</a></p>
               </div>
