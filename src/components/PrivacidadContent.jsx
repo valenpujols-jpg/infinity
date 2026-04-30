@@ -183,6 +183,38 @@ const content = {
           </p>
         ),
       },
+      {
+        title: '11. Comunicaciones por SMS',
+        body: (
+          <>
+            <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-5">
+              <p className="font-bold text-amber-800 text-sm uppercase tracking-wide mb-1">Aviso importante</p>
+              <p className="text-amber-900 text-sm">Este programa de SMS es exclusivamente para comunicaciones de servicio no comerciales. <strong>No enviamos mensajes con fines de marketing, publicidad ni promoción.</strong></p>
+            </div>
+            <p className="mb-4">
+              Al proporcionar tu número de teléfono y otorgar tu consentimiento, aceptas recibir
+              mensajes de texto de <strong>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong> (617-669-8210).
+              Los tipos de mensajes incluyen: recordatorios de citas, actualizaciones de servicios
+              de taxes, estado de trámites ITIN, estado de documentos y soporte al cliente.
+            </p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li>La frecuencia de mensajes varía según tu caso activo.</li>
+              <li>Pueden aplicar tarifas de mensajes y datos de tu operador.</li>
+              <li>Responde <strong>STOP</strong> en cualquier momento para cancelar la suscripción a mensajes SMS.</li>
+              <li>Responde <strong>HELP</strong> para obtener asistencia, o contáctanos al{' '}
+                <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> o{' '}
+                <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.
+              </li>
+              <li>El consentimiento para recibir SMS <strong>no es una condición de compra</strong>.</li>
+              <li>Los datos de consentimiento de SMS y tu número de teléfono <strong>no serán vendidos, compartidos ni alquilados a terceros</strong> con fines de marketing o promoción.</li>
+            </ul>
+            <p>
+              Para más detalles sobre los términos de SMS, consulta nuestra sección 13 en los{' '}
+              <a href="/terms" className="text-gold-600 hover:underline font-semibold">Términos y Condiciones</a>.
+            </p>
+          </>
+        ),
+      },
     ],
     contactTitle: 'Contacto — Privacidad',
     contactDesc: 'Para cualquier consulta relacionada con esta Política de Privacidad o el manejo de tu información personal, contáctanos:',
@@ -360,6 +392,38 @@ const content = {
             Your continued use of our services after changes are published constitutes your
             acceptance of those changes.
           </p>
+        ),
+      },
+      {
+        title: '11. SMS Communications',
+        body: (
+          <>
+            <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-5">
+              <p className="font-bold text-amber-800 text-sm uppercase tracking-wide mb-1">Important Notice</p>
+              <p className="text-amber-900 text-sm">This SMS program is exclusively for non-commercial, service-related communications. <strong>We do not send messages for marketing, advertising, or promotional purposes.</strong></p>
+            </div>
+            <p className="mb-4">
+              By providing your phone number and giving your consent, you agree to receive text
+              messages from <strong>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services</strong> (617-669-8210).
+              Message types include: appointment reminders, tax service updates, ITIN status
+              updates, document status updates, and customer support.
+            </p>
+            <ul className="list-disc list-inside space-y-1.5 ml-2 mb-4">
+              <li>Message frequency varies depending on your active case.</li>
+              <li>Message and data rates may apply from your carrier.</li>
+              <li>Reply <strong>STOP</strong> at any time to unsubscribe from SMS messages.</li>
+              <li>Reply <strong>HELP</strong> for assistance, or contact us at{' '}
+                <a href="tel:6176698210" className="text-gold-600 font-semibold">617-669-8210</a> or{' '}
+                <a href="mailto:info@infinityssinc.com" className="text-gold-600 font-semibold">info@infinityssinc.com</a>.
+              </li>
+              <li>SMS consent is <strong>not a condition of purchase</strong>.</li>
+              <li>SMS opt-in data and your phone number will <strong>not be sold, shared, or rented to third parties</strong> for marketing or promotional purposes.</li>
+            </ul>
+            <p>
+              For full SMS terms, see Section 13 of our{' '}
+              <a href="/terms" className="text-gold-600 hover:underline font-semibold">Terms and Conditions</a>.
+            </p>
+          </>
         ),
       },
     ],
