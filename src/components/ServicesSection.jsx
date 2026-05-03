@@ -11,7 +11,6 @@ const images = [
   'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&q=80',
 ]
 
 const hrefs = [
@@ -20,12 +19,11 @@ const hrefs = [
   '/services#corporate-taxes',
   '/services#bookkeeping',
   '/services#payroll',
-  '/services#credit',
 ]
 
 const gradients = [
   'from-blue-900/90','from-navy-900/90','from-slate-900/90',
-  'from-emerald-900/90','from-violet-900/90','from-rose-900/90',
+  'from-emerald-900/90','from-violet-900/90',
 ]
 
 export default function ServicesSection() {

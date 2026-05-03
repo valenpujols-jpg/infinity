@@ -10,7 +10,6 @@ const servicesEs = [
   'Taxes Corporativos',
   'Bookkeeping',
   'Payroll',
-  'Reparación de Crédito',
   'Otro / No estoy seguro',
 ]
 
@@ -20,7 +19,6 @@ const servicesEn = [
   'Corporate Tax Preparation',
   'Bookkeeping',
   'Payroll',
-  'Credit Repair',
   'Other / Not sure',
 ]
 

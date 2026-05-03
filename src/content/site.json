@@ -34,7 +34,7 @@
       "story3": "Por eso construimos una empresa donde el cliente siempre es lo primero. Un lugar donde puedes llegar con tus dudas, tus documentos y tus metas, y salir con claridad, tranquilidad y respuestas reales.",
       "story4": "Hoy atendemos a cientos de familias y negocios en Boston y sus alrededores, y seguimos creciendo porque nuestros clientes confían en nosotros y nos recomiendan. Eso es lo que más nos enorgullece.",
       "missionTitle": "Nuestra Misión",
-      "missionBody": "Brindar servicios financieros, contables, migratorios y de crédito de la más alta calidad a individuos y empresas, especialmente a la comunidad hispana en Boston, MA.",
+      "missionBody": "Brindar servicios financieros, contables y migratorios de la más alta calidad a individuos y empresas, especialmente a la comunidad hispana en Boston, MA.",
       "visionTitle": "Nuestra Visión",
       "visionBody": "Convertirnos en la empresa de servicios de referencia para la comunidad latina del noreste de Estados Unidos. Ser reconocidos por nuestra excelencia, confiabilidad y el impacto positivo que generamos."
     },
@@ -42,7 +42,6 @@
       { "q": "¿Qué documentos necesito para preparar mis taxes individuales?", "a": "Para declarar tus impuestos personales generalmente necesitas: formulario W-2, formularios 1099, tu número de Seguro Social o ITIN, información bancaria, comprobantes de gastos deducibles como educación, salud, donaciones, y cualquier carta del IRS que hayas recibido." },
       { "q": "¿Qué es el ITIN y quién lo necesita?", "a": "El ITIN es un número de identificación fiscal emitido por el IRS para personas que no tienen Seguro Social pero necesitan declarar impuestos. Es común entre inmigrantes que trabajan o tienen ingresos en Estados Unidos." },
       { "q": "¿Qué incluye exactamente el servicio de Bookkeeping?", "a": "Nuestro servicio incluye: registro mensual de ingresos y gastos, conciliación bancaria, categorización de transacciones, preparación de estados financieros y organización de información para la declaración anual de taxes." },
-      { "q": "¿Cómo funciona el servicio de reparación de crédito?", "a": "El proceso comienza con una revisión de tu historial crediticio en los tres bureaus principales. Identificamos errores, ítems negativos o no verificables y procedemos con disputas formales cuando corresponde." },
       { "q": "¿Atienden clientes fuera de Boston?", "a": "Sí, aunque estamos basados en Boston, MA, podemos atender a clientes de otras ciudades de forma remota. Muchos de nuestros servicios como taxes, bookkeeping y payroll se pueden manejar completamente de forma virtual." },
       { "q": "¿Mis datos personales están seguros con ustedes?", "a": "Absolutamente. La confidencialidad de tu información es una prioridad máxima. Manejamos todos los datos bajo estrictas medidas de seguridad y nunca compartimos tu información con terceros sin tu consentimiento expreso." }
     ],
@@ -56,8 +55,7 @@
       { "tag": "Impuestos",   "title": "Taxes Individuales",       "desc": "Declaración de impuestos personales con máximo reembolso y cumplimiento total con el IRS." },
       { "tag": "Empresas",    "title": "Taxes Corporativos",       "desc": "Cumplimiento tributario para LLC, S-Corp y corporaciones. Maximiza deducciones legales." },
       { "tag": "Contabilidad","title": "Bookkeeping",              "desc": "Control financiero y organización contable mensual. Conoce el estado real de tu negocio." },
-      { "tag": "Nómina",      "title": "Payroll",                  "desc": "Gestión completa de nómina para empleadores. Tus empleados cobran a tiempo, sin errores." },
-      { "tag": "Crédito",     "title": "Reparación de Crédito",    "desc": "Revisa tu historial, disputa errores y mejora tu score con estrategias reales y efectivas." }
+      { "tag": "Nómina",      "title": "Payroll",                  "desc": "Gestión completa de nómina para empleadores. Tus empleados cobran a tiempo, sin errores." }
     ],
     "testimonials": [
       { "name": "María G.",  "location": "East Boston, MA", "service": "Taxes Individuales",   "text": "Excelente servicio. Me ayudaron con mis taxes y por primera vez entendí todo el proceso. Muy profesionales, amables y puntuales. Los recomiendo ampliamente." },
@@ -66,7 +64,7 @@
     ],
     "footer": {
       "ctaStrip": "¿Listo para comenzar? Contáctanos hoy mismo.",
-      "desc": "Soluciones profesionales de impuestos, contabilidad, nómina, crédito y trámites migratorios para individuos y negocios en Boston, MA."
+      "desc": "Soluciones profesionales de impuestos, contabilidad, nómina y trámites migratorios para individuos y negocios en Boston, MA."
     },
     "cta_section": {
       "title1": "Agenda tu Consulta",
@@ -93,7 +91,7 @@
       "story3": "That is why we built a company where the client always comes first. A place where you can come with your questions, your documents, and your goals — and leave with clarity, peace of mind, and real answers.",
       "story4": "Today we serve hundreds of families and businesses in Boston and the surrounding area, and we continue to grow because our clients trust us and refer us to others. That is what we are most proud of.",
       "missionTitle": "Our Mission",
-      "missionBody": "To provide the highest-quality financial, accounting, immigration, and credit services to individuals and businesses, especially the Hispanic community in Boston, MA.",
+      "missionBody": "To provide the highest-quality financial, accounting, and immigration services to individuals and businesses, especially the Hispanic community in Boston, MA.",
       "visionTitle": "Our Vision",
       "visionBody": "To become the reference service company for the Latino community in the northeastern United States. To be recognized for our excellence, reliability, and the positive impact we generate."
     },
@@ -101,7 +99,6 @@
       { "q": "What documents do I need to prepare my individual taxes?", "a": "For your personal tax return you generally need: W-2 form (if employed), 1099 forms (if self-employed or other income), your Social Security Number or ITIN, banking information, and receipts for deductible expenses." },
       { "q": "What is an ITIN and who needs it?", "a": "An ITIN (Individual Taxpayer Identification Number) is a tax ID issued by the IRS for people who don't have a Social Security Number but need to file taxes. It's common among immigrants who work or have income in the United States." },
       { "q": "What does the Bookkeeping service include?", "a": "Our bookkeeping service includes: monthly recording of all income and expenses, bank reconciliation, transaction categorization, preparation of financial statements, and organization of your records for the annual tax filing." },
-      { "q": "How does the credit repair service work?", "a": "The process starts with a review of your credit history at the three major bureaus. We identify errors, negative or unverifiable items and proceed with formal disputes when appropriate." },
       { "q": "Do you serve clients outside of Boston?", "a": "Yes, although we are based in Boston, MA, we can serve clients from other cities remotely. Many of our services like taxes, bookkeeping and payroll can be handled completely virtually." },
       { "q": "Is my personal information safe with you?", "a": "Absolutely. The confidentiality of your information is our top priority. We handle all data under strict security measures and never share your information with third parties without your express consent." }
     ],
@@ -115,8 +112,7 @@
       { "tag": "Taxes",       "title": "Individual Tax Preparation",  "desc": "Personal tax returns with maximum refund and full IRS compliance." },
       { "tag": "Business",    "title": "Corporate Tax Preparation",   "desc": "Tax compliance for LLC, S-Corp and corporations. Maximize legal deductions." },
       { "tag": "Accounting",  "title": "Bookkeeping",                "desc": "Monthly financial control and accounting organization. Know the real state of your business." },
-      { "tag": "Payroll",     "title": "Payroll Services",           "desc": "Complete payroll management for employers. Your employees get paid on time, error-free." },
-      { "tag": "Credit",      "title": "Credit Repair",              "desc": "Review your history, dispute errors and improve your score with real and effective strategies." }
+      { "tag": "Payroll",     "title": "Payroll Services",           "desc": "Complete payroll management for employers. Your employees get paid on time, error-free." }
     ],
     "testimonials": [
       { "name": "María G.",  "location": "East Boston, MA", "service": "Individual Taxes",      "text": "Excellent service. They helped me with my taxes and for the first time I understood the entire process. Very professional, friendly and punctual. Highly recommended." },
@@ -125,7 +121,7 @@
     ],
     "footer": {
       "ctaStrip": "Ready to get started? Contact us today.",
-      "desc": "Professional tax, accounting, payroll, credit and immigration document services for individuals and businesses in Boston, MA."
+      "desc": "Professional tax, accounting, payroll and immigration document services for individuals and businesses in Boston, MA."
     },
     "cta_section": {
       "title1": "Schedule Your",

@@ -28,25 +28,17 @@ const faqData = {
       {
         category: 'Bookkeeping y Payroll',
         questions: [
-          { q: '¿Qué incluye exactamente el servicio de Bookkeeping?', a: 'Nuestro servicio de bookkeeping incluye: registro mensual de todos tus ingresos y gastos, conciliación bancaria y de tarjetas de crédito, categorización de transacciones, preparación de estados financieros (Profit & Loss, Balance Sheet), y organización de tu información para la declaración anual de taxes. Puedes recibirlo de forma mensual o trimestral.' },
+          { q: '¿Qué incluye exactamente el servicio de Bookkeeping?', a: 'Nuestro servicio de bookkeeping incluye: registro mensual de todos tus ingresos y gastos, conciliación bancaria, categorización de transacciones, preparación de estados financieros (Profit & Loss, Balance Sheet), y organización de tu información para la declaración anual de taxes. Puedes recibirlo de forma mensual o trimestral.' },
           { q: '¿Necesito QuickBooks para el servicio de Bookkeeping?', a: 'No es obligatorio, pero podemos trabajar con QuickBooks si ya lo tienes. También podemos manejar tu contabilidad con otras herramientas o incluso con estados de cuenta y recibos físicos. Nos adaptamos a tu situación actual.' },
           { q: '¿Qué incluye el servicio de Payroll?', a: 'Nuestro servicio de payroll incluye: cálculo de salarios brutos y netos, retención y cálculo de impuestos federales y estatales, emisión de cheques o coordinación de depósito directo, presentación de formularios 941 trimestrales, preparación de W-2 anuales, y reporte de nuevos empleados al estado de Massachusetts.' },
           { q: '¿Cada cuánto tiempo procesan el payroll?', a: 'Ofrecemos procesamiento de nómina semanal, quincenal o mensual según las necesidades de tu negocio. Coordinamos directamente con el calendario que mejor funcione para ti y tus empleados.' },
         ],
       },
       {
-        category: 'Reparación de Crédito',
-        questions: [
-          { q: '¿Cómo funciona el servicio de reparación de crédito?', a: 'El proceso comienza con una revisión de tu historial crediticio en los tres bureaus principales: Equifax, Experian y TransUnion. Identificamos errores, ítems negativos o no verificables y procedemos con disputas formales cuando corresponde. También te orientamos sobre estrategias para mejorar tu score a corto y largo plazo.' },
-          { q: '¿Cuánto tiempo tarda en mejorar mi crédito?', a: 'Los resultados varían según el estado actual de tu historial. Algunos clientes ven mejoras en 30-60 días si hay errores que se pueden disputar. Para mejoras más significativas o historial con deudas serias, el proceso puede tomar varios meses. Lo que sí garantizamos es un plan claro y seguimiento constante.' },
-          { q: '¿Pueden eliminar información negativa correcta de mi crédito?', a: 'No, información negativa que es correcta y verificable no puede eliminarse permanentemente. Lo que sí podemos hacer es disputar ítems que son incorrectos, desactualizados o no verificables. También te orientamos para construir historial positivo que compense los negativos con el tiempo.' },
-        ],
-      },
-      {
         category: 'Trámites y Consultas',
         questions: [
           { q: '¿Cómo inicio el proceso para cualquier servicio?', a: 'Es muy sencillo. Solo contáctanos por teléfono, WhatsApp, email o completa nuestro formulario en línea. Te agendaremos una consulta inicial para evaluar tu caso, explicarte el proceso completo y darte un presupuesto claro sin compromiso.' },
-          { q: '¿Atienden clientes fuera de Boston?', a: 'Sí, aunque estamos basados en Boston, MA, podemos atender a clientes de otras ciudades de forma remota. Muchos de nuestros servicios como taxes, bookkeeping, payroll y reparación de crédito se pueden manejar completamente de forma virtual.' },
+          { q: '¿Atienden clientes fuera de Boston?', a: 'Sí, aunque estamos basados en Boston, MA, podemos atender a clientes de otras ciudades de forma remota. Muchos de nuestros servicios como taxes, bookkeeping y payroll se pueden manejar completamente de forma virtual.' },
           { q: '¿Qué tipo de apoyo brindan en trámites migratorios?', a: 'Ofrecemos orientación y preparación de documentos para diversos trámites migratorios administrativos. Es importante aclarar que somos consultores de documentación y no somos abogados de inmigración. Si tu caso requiere representación legal, te referiremos a un abogado de inmigración calificado.' },
           { q: '¿Mis datos personales están seguros con ustedes?', a: 'Absolutamente. La confidencialidad de tu información es una prioridad máxima para nosotros. Manejamos todos los datos bajo estrictas medidas de seguridad y nunca compartimos tu información con terceros sin tu consentimiento expreso.' },
         ],
@@ -75,25 +67,17 @@ const faqData = {
       {
         category: 'Bookkeeping & Payroll',
         questions: [
-          { q: 'What exactly does the Bookkeeping service include?', a: 'Our bookkeeping service includes: monthly recording of all your income and expenses, bank and credit card reconciliation, transaction categorization, preparation of financial statements (Profit & Loss, Balance Sheet), and organization of your information for the annual tax return. You can receive it monthly or quarterly.' },
+          { q: 'What exactly does the Bookkeeping service include?', a: 'Our bookkeeping service includes: monthly recording of all your income and expenses, bank reconciliation, transaction categorization, preparation of financial statements (Profit & Loss, Balance Sheet), and organization of your information for the annual tax return. You can receive it monthly or quarterly.' },
           { q: 'Do I need QuickBooks for the Bookkeeping service?', a: "It is not required, but we can work with QuickBooks if you already have it. We can also manage your accounting with other tools or even with bank statements and physical receipts. We adapt to your current situation." },
           { q: 'What does the Payroll service include?', a: 'Our payroll service includes: gross and net salary calculation, federal and state tax withholding and calculation, check issuance or direct deposit coordination, filing of quarterly 941 forms, preparation of annual W-2s, and new employee reporting to the state of Massachusetts.' },
           { q: 'How often do you process payroll?', a: 'We offer weekly, biweekly or monthly payroll processing according to your business needs. We coordinate directly with the schedule that works best for you and your employees.' },
         ],
       },
       {
-        category: 'Credit Repair',
-        questions: [
-          { q: 'How does the credit repair service work?', a: 'The process starts with a review of your credit history at the three main bureaus: Equifax, Experian and TransUnion. We identify errors, negative or unverifiable items and proceed with formal disputes when appropriate. We also guide you on strategies to improve your score in the short and long term.' },
-          { q: 'How long does it take to improve my credit?', a: 'Results vary depending on the current state of your history. Some clients see improvements in 30-60 days if there are errors that can be disputed. For more significant improvements or a history with serious debts, the process may take several months. What we do guarantee is a clear plan and constant follow-up.' },
-          { q: 'Can you remove accurate negative information from my credit?', a: 'No, negative information that is accurate and verifiable cannot be permanently removed. What we can do is dispute items that are incorrect, outdated or unverifiable. We also guide you to build a positive history that compensates for the negatives over time.' },
-        ],
-      },
-      {
         category: 'Processes & Inquiries',
         questions: [
           { q: 'How do I start the process for any service?', a: 'It is very simple. Just contact us by phone, WhatsApp, email or complete our online form. We will schedule an initial consultation to evaluate your case, explain the complete process and give you a clear quote with no commitment.' },
-          { q: 'Do you serve clients outside of Boston?', a: 'Yes, although we are based in Boston, MA, we can serve clients from other cities remotely. Many of our services such as taxes, bookkeeping, payroll and credit repair can be handled completely virtually.' },
+          { q: 'Do you serve clients outside of Boston?', a: 'Yes, although we are based in Boston, MA, we can serve clients from other cities remotely. Many of our services such as taxes, bookkeeping and payroll can be handled completely virtually.' },
           { q: 'What kind of support do you provide for immigration matters?', a: 'We offer guidance and document preparation for various administrative immigration processes. It is important to clarify that we are documentation consultants and we are not immigration attorneys. If your case requires legal representation, we will refer you to a qualified immigration attorney.' },
           { q: 'Is my personal data safe with you?', a: 'Absolutely. The confidentiality of your information is a top priority for us. We handle all data under strict security measures and never share your information with third parties without your express consent.' },
         ],

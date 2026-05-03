@@ -10,8 +10,8 @@ export const metadata = {
     template: '%s | Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
   },
   description:
-    'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de taxes, bookkeeping, payroll, reparación de crédito y trámites migratorios en Boston, MA. Atención personalizada en español.',
-  keywords: ['tax preparation Boston','bookkeeping Boston','payroll services Boston','credit repair Boston','immigration documents Boston','taxes en español Boston'],
+    'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de taxes, bookkeeping, payroll y trámites migratorios en Boston, MA. Atención personalizada en español.',
+  keywords: ['tax preparation Boston','bookkeeping Boston','payroll services Boston','immigration documents Boston','taxes en español Boston'],
   authors: [{ name: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services' }],
   metadataBase: new URL('https://infinityssinc.com'),
   openGraph: {

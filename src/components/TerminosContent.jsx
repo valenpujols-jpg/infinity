@@ -37,7 +37,7 @@ const content = {
         title: '2. Descripción de servicios',
         body: (
           <>
-            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de preparación de impuestos (taxes individuales y corporativos), contabilidad (bookkeeping), gestión de nómina (payroll), reparación de crédito y consultoría y preparación de documentos administrativos relacionados con trámites migratorios.</p>
+            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services ofrece servicios profesionales de preparación de impuestos (taxes individuales y corporativos), contabilidad (bookkeeping), gestión de nómina (payroll) y consultoría y preparación de documentos administrativos relacionados con trámites migratorios.</p>
             <p className="mt-3">La descripción de servicios en nuestro sitio web es de carácter informativo. Los alcances específicos de cada servicio serán acordados por escrito o verbalmente al inicio de cada relación contractual. La Empresa se reserva el derecho de modificar, suspender o discontinuar cualquier servicio sin previo aviso.</p>
           </>
         ),
@@ -175,7 +175,7 @@ const content = {
         title: '2. Description of Services',
         body: (
           <>
-            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services provides professional services including individual and corporate tax preparation, bookkeeping, payroll management, credit repair, and consulting and administrative document preparation related to immigration matters.</p>
+            <p>Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services provides professional services including individual and corporate tax preparation, bookkeeping, payroll management, and consulting and administrative document preparation related to immigration matters.</p>
             <p className="mt-3">The service descriptions on our website are for informational purposes only. The specific scope of each service will be agreed upon in writing or verbally at the start of each contractual relationship. The Company reserves the right to modify, suspend, or discontinue any service without prior notice.</p>
           </>
         ),

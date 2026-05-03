@@ -42,19 +42,7 @@ const content = {
         ),
       },
       {
-        title: '4. Servicios de Reparación de Crédito',
-        body: (
-          <ul className="list-disc list-inside space-y-2.5 ml-2">
-            <li><strong>No garantizamos un puntaje de crédito específico</strong> ni un resultado determinado. Los resultados varían según el historial individual, las decisiones de los bureaus de crédito y las circunstancias particulares de cada cliente.</li>
-            <li>De conformidad con la <strong>Credit Repair Organizations Act (CROA)</strong>, informamos que: tienes derecho a disputar información inexacta en tu reporte de crédito directamente con los bureaus de crédito de forma gratuita.</li>
-            <li>No podemos eliminar información negativa que sea correcta, precisa y verificable de tu historial crediticio. Solo podemos disputar ítems que sean incorrectos, desactualizados o no verificables conforme a la ley.</li>
-            <li>Los resultados del proceso de reparación de crédito <strong>no son inmediatos</strong>. El tiempo requerido varía según la complejidad del historial y la respuesta de los bureaus y acreedores.</li>
-            <li>Ninguna estrategia de crédito está garantizada para funcionar en todos los casos. Proporcionamos orientación profesional basada en mejores prácticas, sin promesas de resultados específicos.</li>
-          </ul>
-        ),
-      },
-      {
-        title: '5. Servicios de Bookkeeping y Payroll',
+        title: '4. Servicios de Bookkeeping y Payroll',
         body: (
           <ul className="list-disc list-inside space-y-2.5 ml-2">
             <li>La precisión de nuestros servicios de contabilidad y nómina depende directamente de la información y documentos que el cliente nos proporcione en tiempo y forma.</li>
@@ -64,7 +52,7 @@ const content = {
         ),
       },
       {
-        title: '6. Información Solo con Fines Informativos',
+        title: '5. Información Solo con Fines Informativos',
         body: (
           <>
             <p>Toda la información publicada en este sitio web, incluyendo artículos, guías, descripciones de servicios y respuestas a preguntas frecuentes, tiene carácter meramente informativo y general. No debe interpretarse como asesoría legal, fiscal, contable, financiera ni de ningún tipo de naturaleza profesional para situaciones individuales específicas.</p>
@@ -116,19 +104,7 @@ const content = {
         ),
       },
       {
-        title: '4. Credit Repair Services',
-        body: (
-          <ul className="list-disc list-inside space-y-2.5 ml-2">
-            <li><strong>We do not guarantee a specific credit score</strong> or a particular outcome. Results vary based on individual credit history, credit bureau decisions, and each client's particular circumstances.</li>
-            <li>In accordance with the <strong>Credit Repair Organizations Act (CROA)</strong>, we inform you that: you have the right to dispute inaccurate information in your credit report directly with the credit bureaus at no cost.</li>
-            <li>We cannot remove negative information that is correct, accurate, and verifiable from your credit history. We can only dispute items that are incorrect, outdated, or unverifiable under the law.</li>
-            <li>Credit repair results are <strong>not immediate</strong>. The time required varies based on the complexity of your credit history and the response of bureaus and creditors.</li>
-            <li>No credit strategy is guaranteed to work in every case. We provide professional guidance based on best practices, without promises of specific results.</li>
-          </ul>
-        ),
-      },
-      {
-        title: '5. Bookkeeping & Payroll Services',
+        title: '4. Bookkeeping & Payroll Services',
         body: (
           <ul className="list-disc list-inside space-y-2.5 ml-2">
             <li>The accuracy of our bookkeeping and payroll services depends directly on the information and documents the client provides to us on time.</li>
@@ -138,7 +114,7 @@ const content = {
         ),
       },
       {
-        title: '6. Information for Informational Purposes Only',
+        title: '5. Information for Informational Purposes Only',
         body: (
           <>
             <p>All information published on this website, including articles, guides, service descriptions, and answers to frequently asked questions, is purely for general informational purposes. It should not be interpreted as legal, tax, accounting, financial, or any type of professional advice for specific individual situations.</p>
