@@ -20,7 +20,7 @@ export const metadata = {
     url: 'https://infinityssinc.com',
     siteName: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services',
     title: 'Infinity Solutions of Roxbury LLC DBA VAESCA Tax Services | Soluciones Profesionales en Boston, MA',
-    description: 'Taxes, Bookkeeping, Payroll, Reparación de Crédito y Trámites Migratorios en Boston, MA.',
+    description: 'Taxes, Bookkeeping, Payroll y Trámites Migratorios en Boston, MA.',
   },
 }
 

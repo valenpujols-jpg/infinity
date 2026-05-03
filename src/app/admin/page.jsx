@@ -18,7 +18,7 @@ const SECTIONS = [
   { id: 'footer',       label: 'Footer / CTA',      icon: Globe },
 ]
 
-const SERVICE_LABELS = ['Migración / Immigration', 'Taxes Individuales', 'Taxes Corporativos', 'Bookkeeping', 'Payroll', 'Crédito / Credit']
+const SERVICE_LABELS = ['Migración / Immigration', 'Taxes Individuales', 'Taxes Corporativos', 'Bookkeeping', 'Payroll']
 
 function Field({ label, value, onChange, multiline = false, hint, mono = false }) {
   return (
